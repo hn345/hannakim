@@ -8,11 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0790725b-6a18-456f-af1c-664155835860" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/custom_responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/custom_responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom_responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo-mini.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logo.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +81,7 @@
       <workItem from="1673782669363" duration="8068000" />
       <workItem from="1673835906355" duration="7377000" />
       <workItem from="1673862644498" duration="270000" />
+      <workItem from="1674023022943" duration="10068000" />
     </task>
     <task id="LOCAL-00001" summary="파일 설치">
       <created>1673776973616</created>
@@ -95,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673785470910</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="메뉴 색상 테스트">
+      <created>1674023132712</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674023132712</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +124,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="파일 설치" />
     <MESSAGE value="스크롤바 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="스크롤바 수정" />
+    <MESSAGE value="메뉴 색상 테스트" />
+    <option name="LAST_COMMIT_MESSAGE" value="메뉴 색상 테스트" />
   </component>
 </project>

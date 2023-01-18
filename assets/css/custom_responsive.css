@@ -10,6 +10,10 @@
     .main-panel {
         margin-left: 0;
     }
+
+    .navbar .navbar-brand-wrapper {
+        box-shadow: none;
+    }
 }
 
 @media (max-width: 575px) {

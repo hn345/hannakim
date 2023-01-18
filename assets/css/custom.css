@@ -1,35 +1,7 @@
-/** 공통 start **/
+/**** 공통 start ****/
 body {
     background: #f2edf5;
 }
-
-/* scrollbar start */
-.sidebar::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-}
-
-.sidebar::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.3);
-    /*-webkit-border-radius: 10px;*/
-    /*border-radius: 10px;*/
-    background: #0a1929;
-    padding: 2px;
-}
-
-.sidebar::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    background: #1c3f64;
-    /*-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);*/
-    border: 3px solid transparent;
-    background-clip: content-box;
-}
-
-.sidebar::-webkit-scrollbar-thumb:window-inactive {
-    background: #1c3f64;
-}
-/* scrollbar end */
 
 .content-wrapper {
     padding: 1.26rem 1.22rem;
@@ -39,6 +11,7 @@ body {
     max-width: 1280px;
     margin: 0 auto;
 }
+
 .sidebar
 .page-body-wrapper {
     min-height: calc(100vh - 64px);
@@ -72,6 +45,7 @@ body {
     z-index: 100;
     height: 64px;
     background: #0a1929;
+    box-shadow: -5px 2px 10px 0 rgb(0 0 0 / 38%)
 }
 
 .navbar .navbar-menu-wrapper {
@@ -83,7 +57,7 @@ body {
 }
 
 .sidebar .nav .nav-item:hover {
-    background: #1c2852;
+    background: #131d3f;
 }
 
 .sidebar .nav .nav-item:hover .nav-link .menu-title {
@@ -106,15 +80,129 @@ body {
     border-bottom: 1px solid rgb(235 237 242 / 16%) !important;
 }
 
+.sidebar .nav .nav-item .nav-link i.menu-icon {
+    color: #5f8187;
+}
+
+.sidebar .nav .nav-item.active > .nav-link i {
+    color: #12caf0;
+}
+
 
 .card {
     border-radius: 8px;
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / .1), 0 1px 2px -1px rgb(0 0 0 / .1);
 }
-/** 공통 end **/
+
+/* 버튼 start */
+.btn-lg {
+    padding: .8rem 1rem;
+}
+/* 버튼 end */
+/**** 공통 end ****/
 
 
-/** about start **/
+/**** nav start ****/
+/* scrollbar start */
+.sidebar::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.3);
+    /*-webkit-border-radius: 10px;*/
+    /*border-radius: 10px;*/
+    background: #0a1929;
+    padding: 2px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #1c3f64;
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);*/
+    border: 3px solid transparent;
+    background-clip: content-box;
+}
+
+.sidebar::-webkit-scrollbar-thumb:window-inactive {
+    background: #1c3f64;
+}
+/* scrollbar end */
+
+.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-profile .nav-link {
+    flex-direction: row;
+}
+
+.navbar .navbar-brand-wrapper .navbar-brand.brand-logo-mini {
+    padding-right: 5px;
+}
+
+.navbar .navbar-brand-wrapper .navbar-brand img {
+    /*width: calc(260px - 84px);*/
+    max-width: 100%;
+    /*height: 46px;*/
+    margin: auto;
+    vertical-align: middle;
+}
+
+.navbar .navbar-brand-wrapper .navbar-brand.brand-logo-mini img {
+    width: calc(70px - 45px);
+    max-width: 100%;
+    height: 28px;
+    margin: auto;
+}
+
+.nav-profile.topProfile {
+    display: none;
+}
+
+.sidebar-icon-only .nav-profile.topProfile {
+    display: block;
+}
+
+.nav-profile.topProfile span.text-info {
+    border-left: 1px solid #ddd;
+    font-weight: 600;
+    font-size: 13px;
+    padding-left: 10px;
+    margin-left: 7px;
+}
+
+li.nav-item.nav-profile .nav-link {
+    flex-direction: column;
+    padding-top: 6px!important;
+}
+
+.sidebar .nav .nav-item.nav-profile .nav-link .nav-profile-image {
+    width: 120px;
+    height: 120px;
+    margin-top: 16px;
+}
+
+.sidebar .nav .nav-item.nav-profile .nav-link .nav-profile-image img {
+    width: 120px;
+    height: 120px;
+    border: 4px solid #273564;
+}
+
+.sidebar .nav .nav-item.nav-profile .nav-link .nav-profile-text {
+    font-size: 1.35rem;
+    margin-left: 0!important;
+    margin-top: 0.95rem;
+    color: #fff;
+    text-align: center;
+}
+
+.sidebar .nav .nav-item.nav-profile .nav-link .nav-profile-badge {
+    margin-top: -13px;
+    color: #ffc107!important;
+}
+/**** nav end ****/
+
+
+/**** about start ****/
 .aboutCont .card-body {
     padding: 0;
 }
@@ -157,10 +245,37 @@ body {
 .prflMenu .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     color: #1a1a1a;
     background-color: transparent;
-    border-bottom: 2px solid #6466f1;
+    border-bottom: 2px solid #12caf0;
 }
 
+.prflMenu .nav-pills .nav-link a {
+    display: block;
+    height: 24px;
+    color: #888;
+    text-decoration: none;
+}
 
+.prflMenu .nav-pills .nav-link.active a {
+    color: #1a1a1a;
+}
+
+.btnTop {
+    border: 1px solid #ccc;
+    line-height: 1;
+    padding: 3px 9px 3px 6px;
+    border-radius: 18px;
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnTop i {
+    line-height: 1;
+    font-size: 12px!important;
+    padding: 2px 3px 0 0;
+}
 /* tab end */
 
-/** about end **/
+/**** about end ****/
