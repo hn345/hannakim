@@ -366,7 +366,7 @@ li.nav-item.nav-profile .nav-link {
 /** 필터 카드 시작 **/
 .filterElementList figure {
     margin-bottom: 0;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
 .filterElementList figure.snip0058 {
@@ -394,8 +394,7 @@ li.nav-item.nav-profile .nav-link {
     filter: blur(0px);
     -webkit-transition: all 0.35s;
     transition: all 0.35s;
-    /*-webkit-transform: scale(1.05);*/
-    /*transform: scale(1.05);*/
+    height: auto;
 }
 
 .filterElementList figure.snip0058 figcaption {
@@ -532,18 +531,6 @@ li.nav-item.nav-profile .nav-link {
     bottom: 0;
 }
 
-/* 팔도장터 */
-.filterElementList .card_8do figure.snip0058 figcaption h2 {
-    background: #e8a840;
-}
-
-.filterElementList .card_8do figure.snip0058:after {
-    background: #e8a840;
-}
-
-.filterElementList .card_8do figure.snip0058 > img {
-    margin-bottom: -12px;
-}
 /** 필터 카드 끝 **/
 
 /** 필터 모달 시작 **/
@@ -553,7 +540,7 @@ li.nav-item.nav-profile .nav-link {
 }
 
 .filterElementList .modal-header {
-    padding: 1rem 2rem;
+    padding: .3rem 2rem;
     background: #fff;
     min-height: 79px;
 }
@@ -597,16 +584,41 @@ li.nav-item.nav-profile .nav-link {
     color: #7fa3f6;
 }
 
+.filterElementList .modal-body .tit_explain {
+    font-size: 1rem;
+    background: #f4f4f4;
+    padding: 2.5rem 16px;
+}
+
+.filterElementList .modal-body .tit_explain .strongTxt {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-bottom: 7px;
+    display: block;
+}
 /** 필터 모달 끝 **/
 
 /** 개별 시작 **/
+/* 팔도장터 */
+.filterElementList .card_8do figure.snip0058 figcaption h2 {
+    background: #4c9248;
+}
+
+.filterElementList .card_8do figure.snip0058:after {
+    background: #4c9248;
+}
+
+.filterElementList .card_8do figure.snip0058 > img {
+    margin-bottom: -12px;
+}
+
 /* 오샐런스 */
 .filterElementList .card_osalance figure.snip0058 figcaption h2 {
-    background: #b82a3e;
+    background: #427bc1;
 }
 
 .filterElementList .card_osalance figure.snip0058:after {
-    background: #b82a3e;
+    background: #427bc1;
 }
 
 .filterElementList .card_osalance figure.snip0058 > img {
@@ -617,6 +629,109 @@ li.nav-item.nav-profile .nav-link {
     height: 26px;
 }
 
+/* 농사랑 */
+.filterElementList .card_nong figure.snip0058 figcaption h2 {
+    background: #db454f;
+}
+
+.filterElementList .card_nong figure.snip0058:after {
+    background: #db454f;
+}
+
+.filterElementList .card_nong figure.snip0058 > img {
+    margin-bottom: -37px;
+}
+
+.filterElementList .modal_nong-cont .modal-header .modal-title img {
+    height: 67px;
+}
+
+
+/* arte */
+.filterElementList .card_arte figure.snip0058 figcaption h2 {
+    background: #63bd6c;
+}
+
+.filterElementList .card_arte figure.snip0058:after {
+    background: #63bd6c;
+}
+
+.filterElementList .card_arte figure.snip0058 > img {
+    margin-bottom: -56px;
+}
+
+.filterElementList .carouselAppCont {
+    padding: 2rem 3.8rem;
+    overflow: hidden;
+}
+
+.filterElementList .carouselAppCont .carousel-item img {
+    border: 1px solid #ccc;
+}
+
+.imgBdrCont img {
+    border: 1px solid #ccc;
+}
+
+.filterElementList .carousel-control-prev {
+    left: -6.8rem;
+}
+
+.filterElementList .carousel-control-next {
+    right: -6.8rem;
+}
+
+.filterElementList .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #ccc;
+}
+
+.filterElementList .carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 2.7rem;
+    height: 2.7rem;
+    background-size: 60% 60%;
+}
+
+.filterElementList .carousel-indicators [data-bs-target] {
+    background-color: #afafaf;
+}
+
+.filterElementList .carousel-indicators {
+    bottom: -3rem;
+}
+
+/* arte */
+.filterElementList .card_sonsoo figure.snip0058 figcaption h2 {
+    background: #f47979;
+}
+
+.filterElementList .card_sonsoo figure.snip0058:after {
+    background: #f47979;
+}
+
+.filterElementList .card_sonsoo figure.snip0058 > img {
+    margin-bottom: -79px;
+}
+
+/* arte */
+.filterElementList .card_emoji figure.snip0058 figcaption h2 {
+    background: #51b0d1;
+}
+
+.filterElementList .card_emoji figure.snip0058:after {
+    background: #51b0d1;
+}
+
+.filterElementList .card_emoji figure.snip0058 > img {
+    margin-bottom: -70px;
+}
+
+.filterElementList .modal_emoji-cont .modal-header .modal-title img {
+    height: 51px;
+}
+
+.filterElementList .bg-emoji {
+    background: #d9ecf5;
+}
 
 /** 개별 끝 **/
 
