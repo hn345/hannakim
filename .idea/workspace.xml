@@ -7,11 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0790725b-6a18-456f-af1c-664155835860" name="변경" comment="포트폴리오 메뉴 추가">
+    <list default="true" id="0790725b-6a18-456f-af1c-664155835860" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/custom_responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom_responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/portfolio/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/portfolio/portfolio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +105,7 @@
       <workItem from="1674377938028" duration="468000" />
       <workItem from="1674378421869" duration="427000" />
       <workItem from="1674378854597" duration="589000" />
-      <workItem from="1674379448920" duration="12038000" />
+      <workItem from="1674379448920" duration="13367000" />
     </task>
     <task id="LOCAL-00001" summary="파일 설치">
       <created>1673776973616</created>
@@ -151,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674378032652</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="포트폴리오 card 추가">
+      <created>1674395506697</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674395506697</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +180,8 @@
     <MESSAGE value="메뉴 구성 변경" />
     <MESSAGE value="메뉴 이미지 추가" />
     <MESSAGE value="포트폴리오 메뉴 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="포트폴리오 메뉴 추가" />
+    <MESSAGE value="포트폴리오 목록 추가" />
+    <MESSAGE value="포트폴리오 card 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="포트폴리오 card 추가" />
   </component>
 </project>

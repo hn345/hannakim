@@ -433,6 +433,7 @@ li.nav-item.nav-profile .nav-link {
 .filterElementList figure.snip0058 figcaption h2 span {
     font-weight: 400;
     font-size: 0.85rem;
+    opacity: .6;
 }
 
 .filterElementList figure.snip0058 figcaption p {
