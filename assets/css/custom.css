@@ -1,4 +1,4 @@
-/**** 공통 start ****/
+/**** 공통 시작 ****/
 body {
     background: #f2edf5;
 }
@@ -27,6 +27,7 @@ body {
     max-height: calc(100vh - 64px);
     min-height: calc(100vh - 64px);
     background: #0a1929;
+    top: 64px;
 }
 
 .main-panel {
@@ -88,22 +89,25 @@ body {
     color: #12caf0;
 }
 
+.page-header {
+    margin: -10px 0 0.75rem 0;
+}
 
 .card {
     border-radius: 8px;
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / .1), 0 1px 2px -1px rgb(0 0 0 / .1);
 }
 
-/* 버튼 start */
+/* 버튼 시작 */
 .btn-lg {
     padding: .8rem 1rem;
 }
-/* 버튼 end */
-/**** 공통 end ****/
+/* 버튼 끝 */
+/**** 공통 끝 ****/
 
 
-/**** nav start ****/
-/* scrollbar start */
+/**** nav 시작 ****/
+/* scrollbar 시작 */
 .sidebar::-webkit-scrollbar {
     width: 10px;
     height: 10px;
@@ -176,14 +180,14 @@ li.nav-item.nav-profile .nav-link {
 }
 
 .sidebar .nav .nav-item.nav-profile .nav-link .nav-profile-image {
-    width: 120px;
-    height: 120px;
+    width: 125px;
+    height: 125px;
     margin-top: 16px;
 }
 
 .sidebar .nav .nav-item.nav-profile .nav-link .nav-profile-image img {
-    width: 120px;
-    height: 120px;
+    width: 125px;
+    height: 125px;
     border: 4px solid #273564;
 }
 
@@ -199,10 +203,29 @@ li.nav-item.nav-profile .nav-link {
     margin-top: -13px;
     color: #ffc107!important;
 }
-/**** nav end ****/
+
+.contTit {
+    display: flex;
+    align-items: center;
+}
+
+.contTit h4 {
+    margin-bottom: 0;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #0a1929;
+    margin-left: 12px;
+}
+
+.contTit span {
+    color: #12caf0;
+    margin-left: 7px;
+    font-weight: 600;
+}
+/**** nav 끝 ****/
 
 
-/**** about start ****/
+/**** about 시작 ****/
 .aboutCont .card-body {
     padding: 0;
 }
@@ -225,7 +248,7 @@ li.nav-item.nav-profile .nav-link {
     align-items: center;
 }
 
-/* tab start */
+/* tab 시작 */
 .prflMenu .nav-pills .nav-link {
     color: #888;
     border-radius: 0;
@@ -276,6 +299,327 @@ li.nav-item.nav-profile .nav-link {
     font-size: 12px!important;
     padding: 2px 3px 0 0;
 }
-/* tab end */
+/* tab 끝 */
 
-/**** about end ****/
+/**** about 끝 ****/
+
+/**** portfolio 시작 ****/
+
+/** 필터 버튼 시작 **/
+.filterElementCont {
+    text-align: center;
+    box-sizing: border-box;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.filterElementCont .btn-group {
+    box-sizing: border-box;
+    background: #f8f7f9;
+    border-radius: 3.5rem;
+    margin-top: 12px;
+}
+
+.filterElementCont .btn {
+    border-radius: 3.5rem;
+    min-height: 48px;
+    box-sizing: border-box;
+    color: #858383;
+}
+
+.filterElementCont .btn.active {
+    text-decoration: none;
+    box-shadow: none;
+    /*border: none;*/
+    /*background: #974fde;*/
+    background: #efeffe;
+    border: 1px solid #6466f1;
+    color: #000;
+}
+
+.filterElementCont .btn:focus {
+    background: #efeffe;
+    border: 1px solid #6466f1;
+    box-shadow: none;
+
+}
+
+.filterElementCont .btn:hover {
+    background: rgb(217 217 239 / 65%);
+    /*border: 1px solid #b3b4ea;*/
+    box-sizing: border-box;
+}
+
+#elementList {
+    padding-top: 26px;
+    margin: 0 -0.7em;
+}
+
+#elementList .grid-margin {
+    margin-bottom: 1.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+/** 필터 버튼 끝 **/
+
+
+/** 필터 카드 시작 **/
+.filterElementList figure {
+    margin-bottom: 0;
+    border-radius: 4px;
+}
+
+.filterElementList figure.snip0058 {
+    font-family: 'Raleway', Arial, sans-serif;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    min-width: 220px;
+    max-height: 260px;
+    width: 100%;
+    background: #000000;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+}
+
+.filterElementList figure.snip0058 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.filterElementList figure.snip0058 > img {
+    opacity: 1;
+    width: 100%;
+    filter: blur(0px);
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    /*-webkit-transform: scale(1.05);*/
+    /*transform: scale(1.05);*/
+}
+
+.filterElementList figure.snip0058 figcaption {
+    left: 30px;
+    margin-bottom: -78px;
+    position: absolute;
+    right: 30px;
+    text-align: left;
+    bottom: 100%;
+    -webkit-transition: bottom 0.35s;
+    transition: bottom 0.35s;
+}
+
+.filterElementList figure.snip0058 figcaption h2 {
+    width: 100%;
+    text-align: left;
+    border-radius: 0 0 5px 5px;
+    margin: 0;
+    padding: 8px 12px;
+    font-size: 1.1em;
+    bottom: 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    box-shadow: 0 0 20px rgb(0 0 0 / 20%);
+    background-color: #000000;
+    position: relative;
+    z-index: 1;
+    min-height: 78px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    flex-direction: column;
+}
+
+
+.filterElementList figure.snip0058 figcaption h2 span {
+    font-weight: 400;
+    font-size: 0.85rem;
+}
+
+.filterElementList figure.snip0058 figcaption p {
+    position: relative;
+    background-color: rgb(213 213 240 / 74%);
+    color: #000;
+    margin: 0;
+    font-size: 0.9em;
+    min-height: 220px;
+}
+
+.filterElementList figure.snip0058 figcaption p span {
+    padding: 15px 12px;
+    position: absolute;
+    bottom: 0;
+}
+
+.filterElementList figure.snip0058 figcaption .icons {
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.filterElementList figure.snip0058 figcaption .icons i {
+    font-size: 18px;
+    padding: 4px;
+    color: #00aeff;
+    position: relative;
+    bottom: -90px;
+    opacity: 0;
+    -webkit-transition: bottom 0.35s, opacity 0.35s;
+    transition: bottom 0.35s, opacity 0.35s;
+}
+
+.filterElementList figure.snip0058:after {
+    position: absolute;
+    display: block;
+    bottom: -15px;
+    height: 15px;
+    right: 30px;
+    left: 30px;
+    border-radius: 5px 5px 0 0;
+    background-color: #000;
+    z-index: 2;
+    content: '';
+    -webkit-transition: bottom 0.35s;
+    transition: bottom 0.35s;
+}
+
+.filterElementList figure.snip0058.blue:after, .filterElementList figure.snip0058.blue h2 {
+    background: #20638f;
+}
+
+.filterElementList figure.snip0058.red:after, .filterElementList figure.snip0058.red h2 {
+    background: #962d22;
+}
+
+.filterElementList figure.snip0058.yellow:after, .filterElementList figure.snip0058.yellow h2 {
+    background: #bf6516;
+}
+
+.filterElementList figure.snip0058.green:after, .filterElementList figure.snip0058.green h2 {
+    background: #1e8449;
+}
+
+.filterElementList figure.snip0058 a {
+    opacity: 0.7;
+}
+
+.filterElementList figure.snip0058 a:hover {
+    opacity: 1;
+}
+
+.filterElementList figure.snip0058:hover > img, .filterElementList figure.snip0058.hover > img {
+    opacity: 0.5;
+    filter: blur(5px);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.filterElementList figure.snip0058:hover figcaption, .filterElementList figure.snip0058.hover figcaption {
+    bottom: 143px;
+}
+
+.filterElementList figure.snip0058:hover figcaption .icons i, .filterElementList figure.snip0058.hover figcaption .icons i {
+    opacity: 1;
+    bottom: -41px;
+}
+
+.filterElementList figure.snip0058:hover figcaption::before, .filterElementList figure.snip0058.hover figcaption::before {
+    opacity: 0.8;
+}
+
+.filterElementList figure.snip0058:hover:after, .filterElementList figure.snip0058.hover:after {
+    bottom: 0;
+}
+
+/* 팔도장터 */
+.filterElementList .card_8do figure.snip0058 figcaption h2 {
+    background: #e8a840;
+}
+
+.filterElementList .card_8do figure.snip0058:after {
+    background: #e8a840;
+}
+
+.filterElementList .card_8do figure.snip0058 > img {
+    margin-bottom: -12px;
+}
+/** 필터 카드 끝 **/
+
+/** 필터 모달 시작 **/
+
+.filterElementList .modal {
+    padding-right: 0!important;
+}
+
+.filterElementList .modal-header {
+    padding: 1rem 2rem;
+    background: #fff;
+    min-height: 79px;
+}
+
+.filterElementList .modal-header .modal-title img {
+   height: 46px;
+}
+
+.filterElementList .modal-header .btn-close {
+    width: 0.9em;
+    height: 0.9em;
+    background-size: .9em;
+}
+
+
+.filterElementList .modal-body {
+    background: #fff;
+    padding: 2.2rem 2rem 3.5rem;
+}
+
+
+.filterElementList .modal-body .img_group img {
+    width: 100%;
+}
+
+.filterElementList .modal-body .img_group h4 {
+    text-align: left;
+    font-size: 1.3rem;
+    padding: 20px 0;
+    border-bottom: 1px solid;
+    margin: 60px 9px 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+.filterElementList .modal-body .img_group h4 i {
+    font-size: 19px;
+    margin-right: 8px;
+}
+
+.filterElementList .modal-body .img_group h4 i.blue {
+    color: #7fa3f6;
+}
+
+/** 필터 모달 끝 **/
+
+/** 개별 시작 **/
+/* 오샐런스 */
+.filterElementList .card_osalance figure.snip0058 figcaption h2 {
+    background: #b82a3e;
+}
+
+.filterElementList .card_osalance figure.snip0058:after {
+    background: #b82a3e;
+}
+
+.filterElementList .card_osalance figure.snip0058 > img {
+    margin-bottom: -37px;
+}
+
+.filterElementList .modal_osalance-cont .modal-header .modal-title img {
+    height: 26px;
+}
+
+
+/** 개별 끝 **/
+
+
+/**** portfolio 끝 ****/
+

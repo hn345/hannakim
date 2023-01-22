@@ -7,12 +7,221 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0790725b-6a18-456f-af1c-664155835860" name="변경" comment="">
+    <list default="true" id="0790725b-6a18-456f-af1c-664155835860" name="변경" comment="메뉴 이미지 추가">
+      <change afterPath="$PROJECT_DIR$/PSD/hannaProfile.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/011-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/011-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/011.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/012.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/013.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/014.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/015.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/017.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/018.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/019.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/1-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/8do-main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/8do_banner01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/8do_banner02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/8do_banner03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/8do_banner04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/8do_banner05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/8do_m_banner01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/8do_m_banner02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/8do_m_banner03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/8do_m_banner04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/8do_m_banner05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/8do_m_banner06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/8do_m_banner07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/8do_m_banner08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/8do_m_banner09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/8do_top_pc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/ani_man.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/ani_smoker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/ani_woman.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/arte-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/arte-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/arte-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/arte-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/arte-05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/arte-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/arte-main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/christian_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/christian_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/christian_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/christian_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/ci_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/ci_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/ci_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/ci_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/comel-main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/comel_coral.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/comel_coral_cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/comel_coral_cloud_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/comel_coral_cloud_p.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/comel_coral_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/comel_coral_p.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/comel_grin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/comel_grin_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/comel_grin_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/comel_herb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/comel_herb_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/comel_img01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/comel_mint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/comel_mint_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/emoji-001.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/emoji-002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/emoji-003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/emoji-004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/emoji-005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/emoji-006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/emoji-007.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/emoji-008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/emoji-009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/emoji-010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/emoji-011.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/emoji-012.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/emoji-013.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/emoji-014.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/emoji-015.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/emoji-016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/emoji-017.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/emoji-018.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/emoji-019.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/emoji-020.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/emoji-021.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/emoji-022.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/emoji-023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/emoji-024.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/hanmam_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/hanmam_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/hanmam_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/hanmam_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/hanmam_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/hanmam_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/icon_title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/illust_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/illust_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/illust_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/illust_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/installer.failurerequests" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/logo-8do.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/logo_arte.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/logo_comEL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/logo_emoji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/logo_nong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/logo_nosmoking.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/logo_osalance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/logo_other90.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/logo_sero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/logo_sonsoo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/logo_videofactory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/my-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/my-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/my-image2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/my-image3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/my-r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/my-r2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/nong-main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/nong_banner01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/nong_banner02-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/nong_banner02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/nong_top_pc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/nos_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/nos_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/nos_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/nos_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/nos_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/nos_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/nos_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/nos_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/nos_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/nos_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/nos_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/nos_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/nos_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/nos_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/nos_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/nos_phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/osalance-main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/osalance_main_banner01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/osalance_main_banner01_detail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/osalance_main_banner02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/osalance_main_banner02_detail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/osalance_main_banner03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/osalance_main_banner03_detail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/osalance_top_pc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/other90_exhibition00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/other90_hp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/other90_logo_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/package02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/package03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/package04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/package05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/sero_img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/sero_img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/sero_img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/sero_img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/singing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/sonsoo-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/sonsoo-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/sonsoo-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/sonsoo-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/sonsoo-13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/sonsoo-14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/sonsoo-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/sonsoo-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/sonsoo-17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/sonsoo-18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/sonsoo-19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/sonsoo-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/sonsoo-20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/sonsoo-21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/sonsoo-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/sonsoo-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/sonsoo-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/sonsoo-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/sonsoo-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/sonsoo-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/sonsoo-9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/sonsoo-main-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/sonsoo-main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/vf_leaflet00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/vf_leaflet01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/vf_leaflet02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/vf_logo_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/videofactory_company_hp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/videofactory_hp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hannaProfile3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/video/hannaProfile.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/video/hannavideo.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/portfolio/portfolio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/custom_responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom_responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/logo-mini.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logo.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,24 +250,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/hannakim/hannaPortfolio/hnPortfolio23&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/hannakim/hannaPortfolio/hnPortfolio23/pages",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/assets/images/video" />
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
@@ -82,6 +297,23 @@
       <workItem from="1673835906355" duration="7377000" />
       <workItem from="1673862644498" duration="270000" />
       <workItem from="1674023022943" duration="10068000" />
+      <workItem from="1674039496551" duration="331000" />
+      <workItem from="1674046703498" duration="320000" />
+      <workItem from="1674084705277" duration="5902000" />
+      <workItem from="1674218863450" duration="8844000" />
+      <workItem from="1674278035595" duration="10936000" />
+      <workItem from="1674297598588" duration="6944000" />
+      <workItem from="1674306781074" duration="1562000" />
+      <workItem from="1674309461267" duration="1562000" />
+      <workItem from="1674311229820" duration="7000" />
+      <workItem from="1674311369065" duration="202000" />
+      <workItem from="1674311973728" duration="502000" />
+      <workItem from="1674312501175" duration="57000" />
+      <workItem from="1674312571429" duration="131000" />
+      <workItem from="1674312717620" duration="18000" />
+      <workItem from="1674312740727" duration="43000" />
+      <workItem from="1674312795405" duration="257000" />
+      <workItem from="1674313069039" duration="188000" />
     </task>
     <task id="LOCAL-00001" summary="파일 설치">
       <created>1673776973616</created>
@@ -104,7 +336,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674023132712</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="메뉴 구성 변경">
+      <created>1674039520135</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674039520135</updated>
+    </task>
+    <task id="LOCAL-00005" summary="메뉴 이미지 추가">
+      <created>1674039663793</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674039663793</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +371,8 @@
     <MESSAGE value="파일 설치" />
     <MESSAGE value="스크롤바 수정" />
     <MESSAGE value="메뉴 색상 테스트" />
-    <option name="LAST_COMMIT_MESSAGE" value="메뉴 색상 테스트" />
+    <MESSAGE value="메뉴 구성 변경" />
+    <MESSAGE value="메뉴 이미지 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="메뉴 이미지 추가" />
   </component>
 </project>

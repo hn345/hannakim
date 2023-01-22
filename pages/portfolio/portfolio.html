@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hanna Design - Portfolio</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <!-- End Plugin css for this page -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/custom.css">
+    <link rel="stylesheet" href="../../assets/css/custom_responsive.css">
+    <!-- End layout styles -->
+    <link rel="shortcut icon" href="../../assets/images/favicon.svg" />
+  </head>
+  <body>
+    <div class=" container-scroller">
+      <!-- partial:../../partials/_navbar.html -->
+      <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+        <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+          <a class="navbar-brand brand-logo" href="../../index.html"><img src="../../assets/images/logo.svg" alt="logo" /></a>
+          <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="../../assets/images/logo-mini.svg" alt="logo" /></a>
+        </div>
+        <div class="navbar-menu-wrapper d-flex align-items-stretch">
+          <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+            <span class="mdi mdi-menu"></span>
+          </button>
+          <div class="contTit">
+            <h4>PortFolio - </h4>
+            <span>Web, APP & Visual DESIGN</span>
+          </div>
+          <ul class="navbar-nav navbar-nav-right">
+            <li class="nav-item nav-profile topProfile">
+              <a class="nav-link">
+                <div class="nav-profile-img">
+                  <img src="../../assets/images/hannaProfile2.jpg" alt="image">
+                  <!--                  <span class="availability-status online"></span>-->
+                </div>
+                <div class="nav-profile-text">
+                  <p class="mb-1 text-black">김한나 <span class="text-info">Designer</span></p>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item d-none d-lg-block full-screen-link">
+              <a class="nav-link">
+                <i class="mdi mdi-fullscreen" id="fullscreen-button"></i>
+              </a>
+            </li>
+            <li class="nav-item nav-settings d-none d-lg-block">
+              <a class="nav-link" href="#">
+                <div class="btnTop">
+                  <i class="mdi mdi-apple-keyboard-control"></i>
+                  <span>TOP</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+            <span class="mdi mdi-menu"></span>
+          </button>
+        </div>
+      </nav>
+      <!-- partial -->
+      <div class="container-fluid page-body-wrapper">
+        <!-- partial:../../partials/_sidebar.html -->
+        <nav class="sidebar sidebar-offcanvas" id="sidebar">
+          <ul class="nav">
+            <li class="nav-item nav-profile">
+              <a href="#" class="nav-link">
+                <div class="nav-profile-image">
+                  <img src="../../assets/images/hannaProfile.jpg" alt="profile">
+                  <span class="login-status online"></span>
+                  <!--change to offline or busy as needed-->
+                </div>
+                <div class="nav-profile-text d-flex flex-column">
+                  <span class="font-weight-bold mb-2">김 한 나</span>
+                  <span class="text-info text-small">Designer</span>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html">
+                <span class="menu-title">About</span>
+                <i class="mdi mdi-account menu-icon"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../pages/portfolio/portfolio.html">
+                <span class="menu-title">Portfolio</span>
+                <i class="mdi mdi-apps menu-icon"></i>
+              </a>
+            </li>
+            <li class="nav-item sidebar-actions">
+              <span class="nav-link">
+                <div class="border-bottom">
+                  <p class="text-secondary text-small">Resume</p>
+                </div>
+                <button class="btn btn-block btn-lg btn-info mt-3 w-100">이력서 <i class="mdi mdi-download"></i></button>
+                <div class="mt-4">
+                  <div class="border-bottom">
+                    <p class="text-secondary text-small">Portfolio - PDF</p>
+                  </div>
+                  <button class="btn btn-block btn-lg btn-primary mt-3 w-100">포트폴리오 - PDF <i class="mdi mdi-download"></i> </button>
+                </div>
+              </span>
+            </li>
+          </ul>
+        </nav>
+        <!-- partial -->
+        <div class="main-panel">
+          <div class="content-wrapper">
+            <div class="page-header d-block d-lg-none">
+              <h3 class="page-title"> PortFolio </h3>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item active" aria-current="page">Web, APP & Visual DESIGN</li>
+                </ol>
+              </nav>
+            </div>
+
+            <div class="filterElementCont">
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-outline-secondary active" id="all">All</button>
+                <button type="button" class="btn btn-outline-secondary" id="web" >WEB</button>
+                <button type="button" class="btn btn-outline-secondary" id="app">APP</button>
+                <button type="button" class="btn btn-outline-secondary" id="visual">VISUAL</button>
+                <button type="button" class="btn btn-outline-secondary" id="etc">ETC</button>
+              </div>
+
+              <div class="filterElementList">
+                <div class="row" id="elementList">
+                  <!-- 포트폴리오 팔도장터 시작 -->
+                  <div class="col-12 col-sm-6 col-lg-4 col-xxl-3 grid-margin web visual">
+                    <!-- card 시작 -->
+                    <div class="card card_8do" data-bs-toggle="modal" data-bs-target="#modal-8do">
+                      <figure class="snip0058"><img src="../../assets/images/element/8do-main.png" alt="팔도장터 배경"/>
+                        <figcaption>
+                          <p><span>팔도 쇼핑몰</span></p>
+                          <h2>
+                            팔도장터
+                            <span>Banner</span>
+                          </h2>
+                          <div class="icons">
+                            <i class="mdi mdi-plus"> more</i>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                    <!-- card 끝 -->
+
+                    <!-- 모달 시작 -->
+                    <div class="modal fade" id="modal-8do" tabindex="-1" aria-labelledby="modal-8doLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="modal-8doLabel">
+                              <img src="../../assets/images/element/logo-8do.png" alt="팔도장터 로고"/>
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="img_group px-md-5 mb-5">
+                              <p class="center"><img src="../../assets/images/element/8do_top_pc.gif" alt="팔도장터"></p>
+                            </div>
+                            <div class="img_group">
+                              <h4 class="explain_h4">
+                                <i class="mdi mdi-image-filter-tilt-shift blue"></i>
+                                팔도장터 슬라이드 배너 PC
+                              </h4>
+                              <div class="row mx-0">
+                                <div class="col-12 mb-3 px-2">
+                                  <img src="../../assets/images/element/8do_banner01.jpg" alt="팔도장터 메인 배너">
+                                </div>
+                                <div class="col-12 mb-3 px-2">
+                                  <img src="../../assets/images/element/8do_banner02.jpg" alt="팔도장터 메인 배너" class="mt-30">
+                                </div>
+                                <div class="col-12 mb-3 px-2">
+                                  <img src="../../assets/images/element/8do_banner03.jpg" alt="팔도장터 메인 배너" class="mt-30">
+                                </div>
+                                <div class="col-12 mb-3 px-2">
+                                  <img src="../../assets/images/element/8do_banner04.jpg" alt="팔도장터 메인 배너" class="mt-30">
+                                </div>
+                                <div class="col-12 mb-3 px-2">
+                                  <img src="../../assets/images/element/8do_banner05.jpg" alt="팔도장터 메인 배너" class="mt-30">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="img_group">
+                              <h4 class="explain_h4">
+                                <i class="mdi mdi-image-filter-tilt-shift blue"></i>
+                                팔도장터 슬라이드 배너 Mobile
+                              </h4>
+                              <div class="row mx-0">
+                                <div class="col-md-6 col-lg-4 mb-3 px-2">
+                                  <img src="../../assets/images/element/8do_m_banner01.jpg" alt="팔도장터 메인 배너">
+                                </div>
+                                <div class="col-md-6 col-lg-4 mb-3 px-2">
+                                  <img src="../../assets/images/element/8do_m_banner02.jpg" alt="팔도장터 메인 배너">
+                                </div>
+                                <div class="col-md-6 col-lg-4 mb-3 px-2">
+                                  <img src="../../assets/images/element/8do_m_banner03.jpg" alt="팔도장터 메인 배너">
+                                </div>
+                                <div class="col-md-6 col-lg-4 mb-3 px-2">
+                                  <img src="../../assets/images/element/8do_m_banner04.jpg" alt="팔도장터 메인 배너">
+                                </div>
+                                <div class="col-md-6 col-lg-4 mb-3 px-2">
+                                  <img src="../../assets/images/element/8do_m_banner05.jpg" alt="팔도장터 메인 배너">
+                                </div>
+                                <div class="col-md-6 col-lg-4 mb-3 px-2">
+                                  <img src="../../assets/images/element/8do_m_banner06.jpg" alt="팔도장터 메인 배너">
+                                </div>
+                                <div class="col-md-6 col-lg-4 mb-3 px-2">
+                                  <img src="../../assets/images/element/8do_m_banner07.jpg" alt="팔도장터 메인 배너">
+                                </div>
+                                <div class="col-md-6 col-lg-4 mb-3 px-2">
+                                  <img src="../../assets/images/element/8do_m_banner08.jpg" alt="팔도장터 메인 배너">
+                                </div>
+                                <div class="col-md-6 col-lg-4 mb-3 px-2">
+                                  <img src="../../assets/images/element/8do_m_banner09.jpg" alt="팔도장터 메인 배너">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- 모달 끝 -->
+                  </div>
+                  <!-- 포트폴리오 팔도장터 끝 -->
+
+                  <!-- 포트폴리오 오샐런스 시작 -->
+                  <div class="col-12 col-sm-6 col-lg-4 col-xxl-3 grid-margin web visual">
+                    <!-- card 시작 -->
+                    <div class="card card_osalance" data-bs-toggle="modal" data-bs-target="#modal-osalance">
+                      <figure class="snip0058"><img src="../../assets/images/element/osalance-main.png" alt="오샐런스"/>
+                        <figcaption>
+                          <p><span>화장품 쇼핑몰</span></p>
+                          <h2>
+                            오샐런스
+                            <span>Event Banner & Detail Page</span>
+                          </h2>
+                          <div class="icons">
+                            <i class="mdi mdi-plus"> more</i>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                    <!-- card 끝 -->
+
+                    <!-- 모달 시작 -->
+                    <div class="modal fade" id="modal-osalance" tabindex="-1" aria-labelledby="modal-8doLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                        <div class="modal-content modal_osalance-cont">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="modal-osalanceLabel">
+                              <img src="../../assets/images/element/logo_osalance.png" alt="오샐런스 로고"/>
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="img_group mt-4 mx-md-2 px-md-5 mb-5">
+                              <p class="center"><img src="../../assets/images/element/osalance_top_pc.png" alt="오샐런스 목업"></p>
+                            </div>
+                            <div class="img_group">
+                              <h4 class="explain_h4">
+                                <i class="mdi mdi-image-filter-tilt-shift blue"></i>
+                                런칭 소문내기 이벤트
+                              </h4>
+                              <div class="row mx-0">
+                                <div class="col-12 mb-3 px-2">
+                                  <img src="../../assets/images/element/osalance_main_banner01.jpg" alt="오샐런스 메인 배너">
+                                </div>
+                                <div class="col-12 mb-3 px-2">
+                                  <img src="../../assets/images/element/osalance_main_banner01_detail.jpg" alt="오샐런스 소문내기 이벤트">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="img_group">
+                              <h4 class="explain_h4">
+                                <i class="mdi mdi-image-filter-tilt-shift blue"></i>
+                                런칭기념 15% 할인이벤트
+                              </h4>
+                              <div class="row mx-0">
+                                <div class="col-12 mb-3 px-2">
+                                  <img src="../../assets/images/element/osalance_main_banner02.jpg" alt="오샐런스 메인 배너">
+                                </div>
+                                <div class="col-12 mb-3 px-2">
+                                  <img src="../../assets/images/element/osalance_main_banner02_detail.jpg" alt="오샐런스 15% 할인이벤트">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="img_group">
+                              <h4 class="explain_h4">
+                                <i class="mdi mdi-image-filter-tilt-shift blue"></i>
+                                수요특가
+                              </h4>
+                              <div class="row mx-0">
+                                <div class="col-12 mb-3 px-2">
+                                  <img src="../../assets/images/element/osalance_main_banner03.jpg" alt="오샐런스 메인 배너">
+                                </div>
+                                <div class="col-12 mb-3 px-2">
+                                  <img src="../../assets/images/element/osalance_main_banner03_detail.jpg" alt="오샐런스 수요특가">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- 모달 끝 -->
+                  </div>
+                  <!-- 포트폴리오 오샐런스 끝 -->
+
+                  <div class="col-12 col-sm-6 col-lg-4 col-xxl-3 grid-margin app">
+                    <div class="card">
+                      <figure class="snip0058 green"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample37.jpg" alt="sample37"/>
+                        <figcaption>
+                          <p><span>Why can't I ever build character at a Miami condo or a casino somewhere?</span></p>
+                          <h2>Ted <span>Baxter</span></h2>
+                          <div class="icons">
+                            <i class=" mdi mdi-plus"></i>
+                            <i class="mdi mdi-emoticon-cool"> more</i>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-lg-4 col-xxl-3 grid-margin app">
+                    <div class="card">
+                      <figure class="snip0058"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample57.jpg" alt="sample57"/>
+                        <figcaption>
+                          <p><span>Weekends don't count unless you spend them doing something completely pointless.</span></p>
+                          <h2 class="white">Patsy <span>Stone</span></h2>
+                          <div class="icons">
+                            <i class=" mdi mdi-plus"></i>
+                            <i class="mdi mdi-emoticon-cool"> more</i>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-lg-4 col-xxl-3 grid-margin visual web">
+                    <div class="card">
+                      <figure class="snip0058"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample57.jpg" alt="sample57"/>
+                        <figcaption>
+                          <p><span>Weekends don't count unless you spend them doing something completely pointless.</span></p>
+                          <h2 class="white">Patsy <span>Stone</span></h2>
+                          <div class="icons">
+                            <i class=" mdi mdi-plus"></i>
+                            <i class="mdi mdi-emoticon-cool"> more</i>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-lg-4 col-xxl-3 grid-margin etc">
+                    <div class="card">
+                      <figure class="snip0058"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample57.jpg" alt="sample57"/>
+                        <figcaption>
+                          <p><span>Weekends don't count unless you spend them doing something completely pointless.</span></p>
+                          <h2 class="white">Patsy <span>Stone</span></h2>
+                          <div class="icons">
+                            <i class=" mdi mdi-plus"></i>
+                            <i class="mdi mdi-emoticon-cool"> more</i>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-lg-4 col-xxl-3 grid-margin web visual">
+                    <div class="card">
+                      <figure class="snip0058"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample57.jpg" alt="sample57"/>
+                        <figcaption>
+                          <p><span>Weekends don't count unless you spend them doing something completely pointless.</span></p>
+                          <h2 class="white">Patsy <span>Stone</span></h2>
+                          <div class="icons">
+                            <i class=" mdi mdi-plus"></i>
+                            <i class="mdi mdi-emoticon-cool"> more</i>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-lg-4 col-xxl-3 grid-margin app">
+                    <div class="card">
+                      <figure class="snip0058"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample57.jpg" alt="sample57"/>
+                        <figcaption>
+                          <p><span>Weekends don't count unless you spend them doing something completely pointless.</span></p>
+                          <h2 class="white">Patsy <span>Stone</span></h2>
+                          <div class="icons">
+                            <i class=" mdi mdi-plus"></i>
+                            <i class="mdi mdi-emoticon-cool"> more</i>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-lg-4 col-xxl-3 grid-margin app">
+                    <div class="card">
+                      <figure class="snip0058"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample57.jpg" alt="sample57"/>
+                        <figcaption>
+                          <p><span>Weekends don't count unless you spend them doing something completely pointless.</span></p>
+                          <h2 class="white">Patsy <span>Stone</span></h2>
+                          <div class="icons">
+                            <i class=" mdi mdi-plus"></i>
+                            <i class="mdi mdi-emoticon-cool"> more</i>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-lg-4 col-xxl-3 grid-margin web">
+                    <div class="card">
+                      <figure class="snip0058 red hover"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample35.jpg" alt="sample35"/>
+                        <figcaption>
+                          <p><span>You know, Hobbes, some days even my lucky rocketship underpants don't help.</span></p>
+                          <h2>Count <span>Floyd</span></h2>
+                          <div class="icons">
+                            <i class=" mdi mdi-plus"></i>
+                            <i class="mdi mdi-emoticon-cool"> more</i>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-lg-4 col-xxl-3 grid-margin web">
+                    <div class="card">
+                      <figure class="snip0058 green"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample37.jpg" alt="sample37"/>
+                        <figcaption>
+                          <p><span>Why can't I ever build character at a Miami condo or a casino somewhere?</span></p>
+                          <h2>Ted <span>Baxter</span></h2>
+                          <div class="icons">
+                            <i class=" mdi mdi-plus"></i>
+                            <i class="mdi mdi-emoticon-cool"> more</i>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-lg-4 col-xxl-3 grid-margin web visual">
+                    <div class="card">
+                      <figure class="snip0058"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample57.jpg" alt="sample57"/>
+                        <figcaption>
+                          <p><span>Weekends don't count unless you spend them doing something completely pointless.</span></p>
+                          <h2 class="white">Patsy <span>Stone</span></h2>
+                          <div class="icons">
+                            <i class=" mdi mdi-plus"></i>
+                            <i class="mdi mdi-emoticon-cool"> more</i>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-lg-4 col-xxl-3 grid-margin visual">
+                    <div class="card">
+                      <figure class="snip0058"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample57.jpg" alt="sample57"/>
+                        <figcaption>
+                          <p><span>Weekends don't count unless you spend them doing something completely pointless.</span></p>
+                          <h2 class="white">Patsy <span>Stone</span></h2>
+                          <div class="icons">
+                            <i class=" mdi mdi-plus"></i>
+                            <i class="mdi mdi-emoticon-cool"> more</i>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-lg-4 col-xxl-3 grid-margin visual">
+                    <div class="card">
+                      <figure class="snip0058"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample57.jpg" alt="sample57"/>
+                        <figcaption>
+                          <p><span>Weekends don't count unless you spend them doing something completely pointless.</span></p>
+                          <h2 class="white">Patsy <span>Stone</span></h2>
+                          <div class="icons">
+                            <i class=" mdi mdi-plus"></i>
+                            <i class="mdi mdi-emoticon-cool"> more</i>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-lg-4 col-xxl-3 grid-margin visual">
+                    <div class="card">
+                      <figure class="snip0058"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample57.jpg" alt="sample57"/>
+                        <figcaption>
+                          <p><span>Weekends don't count unless you spend them doing something completely pointless.</span></p>
+                          <h2 class="white">Patsy <span>Stone</span></h2>
+                          <div class="icons">
+                            <i class=" mdi mdi-plus"></i>
+                            <i class="mdi mdi-emoticon-cool"> more</i>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-lg-4 col-xxl-3 grid-margin etc">
+                    <div class="card">
+                      <figure class="snip0058"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample57.jpg" alt="sample57"/>
+                        <figcaption>
+                          <p><span>Weekends don't count unless you spend them doing something completely pointless.</span></p>
+                          <h2 class="white">Patsy <span>Stone</span></h2>
+                          <div class="icons">
+                            <i class=" mdi mdi-plus"></i>
+                            <i class="mdi mdi-emoticon-cool"> more</i>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+          </div>
+          <!-- partial:../../partials/_footer.html -->
+<!--          <footer class="footer">-->
+<!--            <div class="container-fluid d-flex justify-content-between">-->
+<!--              <span class="text-muted d-block text-center text-sm-start d-sm-inline-block">Copyright © bootstrapdash.com 2021</span>-->
+<!--              <span class="float-none float-sm-end mt-1 mt-sm-0 text-end"> Free <a href="https://www.bootstrapdash.com/bootstrap-admin-template/" target="_blank">Bootstrap admin template</a> from Bootstrapdash.com</span>-->
+<!--            </div>-->
+<!--          </footer>-->
+          <!-- partial -->
+        </div>
+      </div>
+    </div>
+    <!-- plugins:js -->
+    <script src="../../assets/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="../../assets/js/off-canvas.js"></script>
+    <script src="../../assets/js/hoverable-collapse.js"></script>
+    <script src="../../assets/js/misc.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page -->
+    <script src="../../assets/js/custom.js"></script>
+    <!-- End custom js for this page -->
+  </body>
+</html>

@@ -1,3 +1,16 @@
+
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .modal-xl {
+        max-width: 1200px;
+    }
+}
+
 @media (max-width: 1399px) {
 
 }
@@ -7,12 +20,24 @@
 }
 
 @media (max-width: 991px) {
-    .main-panel {
+    .main-panel, .sidebar-icon-only .main-panel  {
         margin-left: 0;
     }
 
     .navbar .navbar-brand-wrapper {
         box-shadow: none;
+    }
+
+    .contTit {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .filterElementCont .btn {
+        padding: 1rem 1.1rem;
+        font-size: 13px;
+        transition: .4s;
     }
 }
 
