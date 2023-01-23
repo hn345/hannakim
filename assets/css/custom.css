@@ -99,6 +99,13 @@ body {
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / .1), 0 1px 2px -1px rgb(0 0 0 / .1);
 }
 
+.footer {
+    border-top: 1px solid #4e5054;
+    background: #616775;
+    padding: 12px 1rem;
+    color: #8991a2;
+}
+
 /* 버튼 시작 */
 .btn-lg {
     padding: .8rem 1rem;
