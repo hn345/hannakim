@@ -46,6 +46,10 @@
     .filterElementList .carousel-control-next {
         right: -4.8rem;
     }
+
+    .filterElementList .modal_comel-cont .comel-card-box .comel-card {
+        width: 33.3%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -54,8 +58,15 @@
         font-size: 13px;
         transition: .4s;
     }
+
+    .filterElementList .modal_comel-cont .comel-card-box .comel-card {
+        width: 50%;
+    }
 }
 
 @media (max-width: 575px) {
 
+    .filterElementList .modal_comel-cont .comel-card-box .comel-card {
+        width: 100%;
+    }
 }

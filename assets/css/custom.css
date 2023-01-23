@@ -1,10 +1,11 @@
 /**** 공통 시작 ****/
 body {
-    background: #f2edf5;
+    background: #444a59;
 }
 
 .content-wrapper {
     padding: 1.26rem 1.22rem;
+    background: #656b78;
 }
 
 .content {
@@ -115,8 +116,6 @@ body {
 
 .sidebar::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.3);
-    /*-webkit-border-radius: 10px;*/
-    /*border-radius: 10px;*/
     background: #0a1929;
     padding: 2px;
 }
@@ -125,7 +124,6 @@ body {
     -webkit-border-radius: 10px;
     border-radius: 10px;
     background: #1c3f64;
-    /*-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);*/
     border: 3px solid transparent;
     background-clip: content-box;
 }
@@ -134,6 +132,11 @@ body {
     background: #1c3f64;
 }
 /* scrollbar end */
+.navbar-menu-wrapper {
+    background: repeating-linear-gradient(135deg, #fbfbfb 0, #fbfbfb 10%, transparent 0, transparent 50%);
+    background-size: 0.5em 0.5em;
+    opacity: 1;
+}
 
 .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-profile .nav-link {
     flex-direction: row;
@@ -144,9 +147,7 @@ body {
 }
 
 .navbar .navbar-brand-wrapper .navbar-brand img {
-    /*width: calc(260px - 84px);*/
     max-width: 100%;
-    /*height: 46px;*/
     margin: auto;
     vertical-align: middle;
 }
@@ -292,6 +293,7 @@ li.nav-item.nav-profile .nav-link {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #fff;
 }
 
 .btnTop i {
@@ -309,15 +311,19 @@ li.nav-item.nav-profile .nav-link {
 .filterElementCont {
     text-align: center;
     box-sizing: border-box;
-    max-width: 1400px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
 .filterElementCont .btn-group {
     box-sizing: border-box;
-    background: #f8f7f9;
     border-radius: 3.5rem;
     margin-top: 12px;
+    background: #808795;
+}
+
+.filterElementCont .btn-group button{
+    color: #fff;
 }
 
 .filterElementCont .btn {
@@ -330,23 +336,20 @@ li.nav-item.nav-profile .nav-link {
 .filterElementCont .btn.active {
     text-decoration: none;
     box-shadow: none;
-    /*border: none;*/
-    /*background: #974fde;*/
     background: #efeffe;
-    border: 1px solid #6466f1;
+    border: 1px solid #fff;
     color: #000;
 }
 
 .filterElementCont .btn:focus {
     background: #efeffe;
-    border: 1px solid #6466f1;
+    border: 1px solid #fff;
     box-shadow: none;
 
 }
 
 .filterElementCont .btn:hover {
     background: rgb(217 217 239 / 65%);
-    /*border: 1px solid #b3b4ea;*/
     box-sizing: border-box;
 }
 
@@ -375,7 +378,7 @@ li.nav-item.nav-profile .nav-link {
     position: relative;
     overflow: hidden;
     min-width: 220px;
-    max-height: 260px;
+    max-height: 270px;
     width: 100%;
     background: #000000;
     cursor: pointer;
@@ -414,7 +417,7 @@ li.nav-item.nav-profile .nav-link {
     border-radius: 0 0 5px 5px;
     margin: 0;
     padding: 8px 12px;
-    font-size: 1.1em;
+    font-size: 1.2em;
     bottom: 0;
     font-weight: 500;
     text-transform: uppercase;
@@ -429,11 +432,11 @@ li.nav-item.nav-profile .nav-link {
     flex-direction: column;
 }
 
-
 .filterElementList figure.snip0058 figcaption h2 span {
     font-weight: 400;
     font-size: 0.85rem;
     opacity: .6;
+    margin-top: 3px;
 }
 
 .filterElementList figure.snip0058 figcaption p {
@@ -594,7 +597,7 @@ li.nav-item.nav-profile .nav-link {
 .filterElementList .modal-body .tit_explain .strongTxt {
     font-size: 1.2rem;
     font-weight: bold;
-    padding-bottom: 7px;
+    padding-bottom: 4px;
     display: block;
 }
 /** 필터 모달 끝 **/
@@ -602,11 +605,11 @@ li.nav-item.nav-profile .nav-link {
 /** 개별 시작 **/
 /* 팔도장터 */
 .filterElementList .card_8do figure.snip0058 figcaption h2 {
-    background: #4c9248;
+    background: #266c27;
 }
 
 .filterElementList .card_8do figure.snip0058:after {
-    background: #4c9248;
+    background: #266c27;
 }
 
 .filterElementList .card_8do figure.snip0058 > img {
@@ -700,20 +703,20 @@ li.nav-item.nav-profile .nav-link {
     bottom: -3rem;
 }
 
-/* arte */
+/* sonsoo */
 .filterElementList .card_sonsoo figure.snip0058 figcaption h2 {
-    background: #f47979;
+    background: #fa6e6e;
 }
 
 .filterElementList .card_sonsoo figure.snip0058:after {
-    background: #f47979;
+    background: #fa6e6e;
 }
 
 .filterElementList .card_sonsoo figure.snip0058 > img {
     margin-bottom: -79px;
 }
 
-/* arte */
+/* emoji */
 .filterElementList .card_emoji figure.snip0058 figcaption h2 {
     background: #51b0d1;
 }
@@ -734,6 +737,308 @@ li.nav-item.nav-profile .nav-link {
     background: #d9ecf5;
 }
 
+/* comel */
+.filterElementList .card_comel figure.snip0058 figcaption h2 {
+    background: #2b6b57;
+}
+
+.filterElementList .card_comel figure.snip0058:after {
+    background: #2b6b57;
+}
+
+.filterElementList .card_comel figure.snip0058 > img {
+    margin-bottom: -55px;
+}
+
+.filterElementList .modal_comel-cont .modal-header .modal-title img {
+    height: 36px;
+}
+
+.filterElementList .modal_comel-cont .comel-card-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.filterElementList .modal_comel-cont .comel-card-box .comel-card {
+    height: 100%;
+    padding: 8px;
+    width: 20%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap!important;
+}
+
+.comel-card-box .comel-card .logo {
+    height: 24px;
+    width: auto!important;
+    margin-bottom: 12px;
+    margin-top: 16px;
+}
+
+.comel-card-box .comel-card .comel_p_text {
+    font-size: .9rem;
+    min-height: 35px;
+    display: flex;
+    justify-content: center;
+    padding: 0 4px;
+    line-height: 1.1;
+}
+
+.comel-card-box .comel-card .imgComelPrd {
+    width: auto!important;
+}
+
+.comel-card-box .comel-card .logo.coral_cloud {
+    height: 30px!important;
+    margin-bottom: 6px
+}
+
+.comel-card-box .comel-card .item {
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    min-height: 200px;
+    border-radius: 3px;
+}
+
+.filterElementList .modal_comel-cont .grin_prd {
+    max-width: 750px;
+}
+
+.filterElementList .link_txt {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.filterElementList .link {
+    height: 24px;
+    background: #656c7c;
+    display: inline-flex;
+    padding: 0 10px;
+    margin-right: 15px;
+    border-radius: 2px;
+    line-height: 1;
+    align-items: center;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.filterElementList .link_txt  a {
+    text-decoration: none;
+}
+
+/* sero */
+.filterElementList .card_sero figure.snip0058 figcaption h2 {
+    background: #ff1568;
+}
+
+.filterElementList .card_sero figure.snip0058:after {
+    background: #ff1568;
+}
+
+.filterElementList .card_sero figure.snip0058 > img {
+    margin-bottom: -79px;
+}
+
+.modal_sero-cont .seroMockupCont img {
+    max-width: 588px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+
+/* 금연 */
+.filterElementList .card_nosmoking figure.snip0058 figcaption h2 {
+    background: #0388d1;
+}
+
+.filterElementList .card_nosmoking figure.snip0058:after {
+    background: #0388d1;
+}
+
+.filterElementList .card_nosmoking figure.snip0058 > img {
+    margin-bottom: -68px;
+}
+
+
+.modal_nosmoking-cont .ani_cont {
+    justify-content: center;
+    display: flex;
+}
+
+.modal_nosmoking-cont .ani_cont > .row {
+    max-width: 600px;
+}
+
+/* 비디오팩토리 - 회사웹 */
+.filterElementList .card_vf figure.snip0058 figcaption h2 {
+    background: #0a4da2;
+}
+
+.filterElementList .card_vf figure.snip0058:after {
+    background: #0a4da2;
+}
+
+.filterElementList .card_vf figure.snip0058 > img {
+    margin-bottom: -70px;
+}
+
+.filterElementList .modal_vf-cont .modal-title img {
+    height: 40px;
+}
+
+.filterElementList .modal_vf-cont .vfImgCont {
+    max-width: 1072px;
+    overflow-x: scroll;
+    border: 1px solid #dfdfdf;
+}
+
+.filterElementList .modal_vf-cont .vfImgCont img {
+    height: 510px;
+}
+
+/* scrollbar 시작 */
+.vfImgCont::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+.vfImgCont::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.3);
+    background: #ededed;
+    padding: 2px;
+}
+
+.vfImgCont::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #c1c1c1;
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);*/
+    border: 3px solid transparent;
+    background-clip: content-box;
+}
+
+.vfImgCont::-webkit-scrollbar-thumb:window-inactive {
+    background: #c1c1c1;
+}
+/* scrollbar end */
+
+/* 비디오팩토리 */
+.filterElementList .card_videofactory figure.snip0058 figcaption h2 {
+    background: #40a39f;
+}
+
+.filterElementList .card_videofactory figure.snip0058:after {
+    background: #40a39f;
+}
+
+.filterElementList .card_videofactory figure.snip0058 > img {
+    margin-bottom: -70px;
+}
+
+.filterElementList .modal_videofactory-cont .modal-title img {
+    height: 40px;
+}
+
+.filterElementList .modal_videofactory-cont .videofactoryCiCont {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+/* ohter90 */
+.filterElementList .card_other90 figure.snip0058 figcaption h2 {
+    background: #fbb91a;
+}
+
+.filterElementList .card_other90 figure.snip0058:after {
+    background: #fbb91a;
+}
+
+.filterElementList .card_other90 figure.snip0058 > img {
+    margin-bottom: -83px;
+}
+
+.filterElementList .modal_other90-cont .other90CiCont {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.bdrDf {
+    border: 1px solid #dfdfdf;
+}
+
+/* ci */
+.filterElementList .card_ci figure.snip0058 figcaption h2 {
+    background: #434d59;
+}
+
+.filterElementList .card_ci figure.snip0058:after {
+    background: #434d59;
+}
+
+.filterElementList .card_ci figure.snip0058 > img {
+    margin-bottom: -100px;
+}
+
+.filterElementList .modal_ci-cont .ciCont {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* package */
+.filterElementList .card_package figure.snip0058 figcaption h2 {
+    background: #d43426;
+}
+
+.filterElementList .card_package figure.snip0058:after {
+    background: #d43426;
+}
+
+.filterElementList .card_package figure.snip0058 > img {
+    margin-bottom: -54px;
+}
+
+/* christian */
+.filterElementList .card_christian figure.snip0058 figcaption h2 {
+    background: #b36d2e;
+}
+
+.filterElementList .card_christian figure.snip0058:after {
+    background: #b36d2e;
+}
+
+.filterElementList .card_christian figure.snip0058 > img {
+    margin-bottom: -54px;
+}
+
+.filterElementList .modal_christian-cont .christianCont {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.filterElementList .modal_christian-cont .christianCont.leaflet {
+    max-width: 600px;
+}
+
+/* hannam */
+.filterElementList .card_hannam figure.snip0058 figcaption h2 {
+    background: #222;
+}
+
+.filterElementList .card_hannam figure.snip0058:after {
+    background: #222;
+}
+
+.filterElementList .card_hannam figure.snip0058 > img {
+    margin-bottom: -54px;
+}
+
+.filterElementList .modal_hannam-cont .hannamCont {
+    max-width: 800px;
+    margin: 0 auto;
+}
 /** 개별 끝 **/
 
 
