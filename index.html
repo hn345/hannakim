@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -109,7 +109,7 @@
                             <div class="border-bottom">
                                 <p class="text-secondary text-small">Portfolio - PDF</p>
                             </div>
-                            <button class="btn btn-block btn-lg btn-primary mt-3 w-100">포트폴리오 - PDF <i class="mdi mdi-download"></i> </button>
+                            <a class="btn btn-block btn-lg btn-primary mt-3 w-100" href="assets/download/김한나_포트폴리오.pdf" download>포트폴리오 - PDF <i class="mdi mdi-download"></i> </a>
                         </div>
                     </span>
                 </li>
@@ -126,7 +126,9 @@
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col-12">
-                                            <img src="assets/images/dashboard/img_1.jpg" class="mb-2 mw-100 w-100 rounded" alt="image" height="256">
+                                            <div class="aboutProfileBgCont">
+                                                <canvas id="aboutProfileBg"></canvas>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="d-flex align-items-top prflMenu">
@@ -135,23 +137,23 @@
                                             <h5 class="me-2 mb-0">김한나 - Designer</h5>
                                             <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                                 <li class="nav-item" role="presentation">
-                                                    <button class="nav-link active" id="pills-home-tab"
-                                                            data-bs-toggle="pill" data-bs-target="#pills-home"
-                                                            type="button" role="tab" aria-controls="pills-home"
-                                                            aria-selected="true"><a href="#about">#About</a></button>
-                                                </li>
-                                                <li class="nav-item" role="presentation">
-                                                    <button class="nav-link" id="pills-profile-tab"
-                                                            data-bs-toggle="pill" data-bs-target="#pills-profile"
-                                                            type="button" role="tab" aria-controls="pills-profile"
-                                                            aria-selected="false">#Profile
+                                                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                                        <a href="#about">#소개</a>
                                                     </button>
                                                 </li>
                                                 <li class="nav-item" role="presentation">
-                                                    <button class="nav-link" id="pills-contact-tab"
-                                                            data-bs-toggle="pill" data-bs-target="#pills-contact"
-                                                            type="button" role="tab" aria-controls="pills-contact"
-                                                            aria-selected="false">#Contact
+                                                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                                                        <a href="#about">#기술</a>
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                                                        <a href="#about">#경력</a>
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="pills-contact-tab2" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                                                        <a href="#about">#자격증</a>
                                                     </button>
                                                 </li>
                                             </ul>
@@ -162,137 +164,173 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-4 stretch-card grid-margin">
-                            <div class="card bg-gradient-danger card-img-holder text-white">
-                                <div class="card-body">
-                                    <img src="assets/images/dashboard/circle.svg" class="card-img-absolute"
-                                         alt="circle-image"/>
-                                    <h4 class="font-weight-normal mb-3">Weekly Sales <i
-                                            class="mdi mdi-chart-line mdi-24px float-right"></i>
-                                    </h4>
-                                    <h2 class="mb-5">$ 15,0000</h2>
-                                    <h6 class="card-text">Increased by 60%</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 stretch-card grid-margin">
-                            <div class="card bg-gradient-info card-img-holder text-white">
-                                <div class="card-body">
-                                    <img src="assets/images/dashboard/circle.svg" class="card-img-absolute"
-                                         alt="circle-image"/>
-                                    <h4 class="font-weight-normal mb-3">Weekly Orders <i
-                                            class="mdi mdi-bookmark-outline mdi-24px float-right"></i>
-                                    </h4>
-                                    <h2 class="mb-5">45,6334</h2>
-                                    <h6 class="card-text">Decreased by 10%</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 stretch-card grid-margin">
-                            <div class="card bg-gradient-success card-img-holder text-white">
-                                <div class="card-body">
-                                    <img src="assets/images/dashboard/circle.svg" class="card-img-absolute"
-                                         alt="circle-image"/>
-                                    <h4 class="font-weight-normal mb-3">Visitors Online <i
-                                            class="mdi mdi-diamond mdi-24px float-right"></i>
-                                    </h4>
-                                    <h2 class="mb-5">95,5741</h2>
-                                    <h6 class="card-text">Increased by 5%</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-7 grid-margin stretch-card">
+                        <div class="col-8 grid-margin stretch-card">
                             <div class="card">
                                 <div class="card-body">
-                                    <div class="clearfix">
-                                        <h4 class="card-title float-left">Visit And Sales Statistics</h4>
-                                        <div id="visit-sale-chart-legend"
-                                             class="rounded-legend legend-horizontal legend-top-right float-right"></div>
+                                    <h4 class="card-title">Web, APP & Visual DESIGNER</h4>
+                                    <div style="white-space: pre-line">
+                                        김한나 1988년 (36세/만 35세) 여
+                                        한남대학교 시각디자인 전공 (도자공예 부전공, 교직이수)
+                                        hn34567@hanmail.net
+                                        010-6201-4076
+                                        (305-315) 대전 유성구 원신흥동
+
+                                        시각디자인을 전공하고 2013년 스마트 E-Book을 만드는 과정을 통해 처음 웹디자인을 접하였습니다.
+                                        그 과정 속에 HTML과 CSS를 통해 웹사이트를 디자인 하는 방법을 배웠습니다.
+                                        이후 지속적으로 이 분야를 공부 하면서 반응형 웹사이트 뿐만아니라 앱 GUI 를 잘 할 수 있도록 개선해 왔습니다.
+                                        2020년 9월까지는 클라우드 기반 ERP 시스템 제작 프로젝트에서 디자인을 담당하여 부트스트랩을 통한 디자인을 하였고,
+                                        또 쇼핑몰 UI개선 및 이벤트 배너, 상세페이지를 디자인 했습니다.
+
+                                        현재는 안경원 전문 프로그램을 만드는 회사에서 angular 기반 ERP 시스템 UI를 디자인 하고 있습니다.
                                     </div>
-                                    <canvas id="visit-sale-chart" class="mt-4"></canvas>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-5 grid-margin stretch-card">
+                        <div class="col-md-4 grid-margin stretch-card">
                             <div class="card">
                                 <div class="card-body">
-                                    <h4 class="card-title">Traffic Sources</h4>
-                                    <canvas id="traffic-chart"></canvas>
-                                    <div id="traffic-chart-legend"
-                                         class="rounded-legend legend-vertical legend-bottom-left pt-4"></div>
+                                    <h4 class="card-title">핵심역량</h4>
+                                    <div class="list-wrapper">
+                                        <ul class="d-flex flex-column-reverse todo-list todo-list-custom">
+                                            <li>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="checkbox" type="checkbox"disabled > HTML
+                                                    </label>
+                                                </div>
+                                                <i class="remove mdi mdi-close-circle-outline"></i>
+                                            </li>
+                                            <li class="completed">
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="checkbox" type="checkbox" checked>  CSS
+                                                    </label>
+                                                </div>
+                                                <i class="remove mdi mdi-close-circle-outline"></i>
+                                            </li>
+                                            <li>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="checkbox" type="checkbox"> bootstrap
+                                                    </label>
+                                                </div>
+                                                <i class="remove mdi mdi-close-circle-outline"></i>
+                                            </li>
+                                            <li>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="checkbox" type="checkbox"> ios / Android 모바일 앱 GUI
+                                                    </label>
+                                                </div>
+                                                <i class="remove mdi mdi-close-circle-outline"></i>
+                                            </li>
+                                            <li class="completed">
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="checkbox" type="checkbox" checked> Visual Design
+                                                    </label>
+                                                </div>
+                                                <i class="remove mdi mdi-close-circle-outline"></i>
+                                            </li>
+                                            <li>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="checkbox" type="checkbox"> 간단한 영상편집
+                                                    </label>
+                                                </div>
+                                                <i class="remove mdi mdi-close-circle-outline"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 grid-margin">
+                        <div class="col-12 grid-margin stretch-card">
                             <div class="card">
                                 <div class="card-body">
-                                    <h4 class="card-title">Recent Tickets</h4>
-                                    <div class="table-responsive">
-                                        <table class="table">
-                                            <thead>
-                                            <tr>
-                                                <th> Assignee</th>
-                                                <th> Subject</th>
-                                                <th> Status</th>
-                                                <th> Last Update</th>
-                                                <th> Tracking ID</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <td>
-                                                    <img src="assets/images/faces/face1.jpg" class="me-2" alt="image">
-                                                    David Grey
-                                                </td>
-                                                <td> Fund is not recieved</td>
-                                                <td>
-                                                    <label class="badge badge-gradient-success">DONE</label>
-                                                </td>
-                                                <td> Dec 5, 2017</td>
-                                                <td> WD-12345</td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <img src="assets/images/faces/face2.jpg" class="me-2" alt="image">
-                                                    Stella Johnson
-                                                </td>
-                                                <td> High loading time</td>
-                                                <td>
-                                                    <label class="badge badge-gradient-warning">PROGRESS</label>
-                                                </td>
-                                                <td> Dec 12, 2017</td>
-                                                <td> WD-12346</td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <img src="assets/images/faces/face3.jpg" class="me-2" alt="image">
-                                                    Marina Michel
-                                                </td>
-                                                <td> Website down for one week</td>
-                                                <td>
-                                                    <label class="badge badge-gradient-info">ON HOLD</label>
-                                                </td>
-                                                <td> Dec 16, 2017</td>
-                                                <td> WD-12347</td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <img src="assets/images/faces/face4.jpg" class="me-2" alt="image">
-                                                    John Doe
-                                                </td>
-                                                <td> Loosing control on server</td>
-                                                <td>
-                                                    <label class="badge badge-gradient-danger">REJECTED</label>
-                                                </td>
-                                                <td> Dec 3, 2017</td>
-                                                <td> WD-12348</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
+                                    <h4 class="card-title">기술</h4>
+
+                                    <div class="row">
+                                        <div class="col-md-4 stretch-card grid-margin">
+                                            <div class="card bg-gradient-danger card-img-holder text-white">
+                                                <div class="card-body">
+                                                    <img src="assets/images/dashboard/circle.svg" class="card-img-absolute"
+                                                         alt="circle-image"/>
+                                                    <h4 class="font-weight-normal mb-3">웹디자인 <i
+                                                            class="mdi mdi-chart-line mdi-24px float-right"></i>
+                                                    </h4>
+                                                    <h2 class="mb-5">$ 15,0000</h2>
+                                                    <h6 class="card-text">Increased by 60%</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 stretch-card grid-margin">
+                                            <div class="card bg-gradient-info card-img-holder text-white">
+                                                <div class="card-body">
+                                                    <img src="assets/images/dashboard/circle.svg" class="card-img-absolute"
+                                                         alt="circle-image"/>
+                                                    <h4 class="font-weight-normal mb-3">앱디자인 <i
+                                                            class="mdi mdi-bookmark-outline mdi-24px float-right"></i>
+                                                    </h4>
+                                                    <h2 class="mb-5">45,6334</h2>
+                                                    <h6 class="card-text">Decreased by 10%</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 stretch-card grid-margin">
+                                            <div class="card bg-gradient-success card-img-holder text-white">
+                                                <div class="card-body">
+                                                    <img src="assets/images/dashboard/circle.svg" class="card-img-absolute"
+                                                         alt="circle-image"/>
+                                                    <h4 class="font-weight-normal mb-3">시각디자인 <i
+                                                            class="mdi mdi-diamond mdi-24px float-right"></i>
+                                                    </h4>
+                                                    <h2 class="mb-5">95,5741</h2>
+                                                    <h6 class="card-text">Increased by 5%</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 stretch-card grid-margin">
+                                            <div class="card bg-gradient-danger card-img-holder text-white">
+                                                <div class="card-body">
+                                                    <img src="assets/images/dashboard/circle.svg" class="card-img-absolute"
+                                                         alt="circle-image"/>
+                                                    <h4 class="font-weight-normal mb-3">HTML / CSS <i
+                                                            class="mdi mdi-chart-line mdi-24px float-right"></i>
+                                                    </h4>
+                                                    <h2 class="mb-5">$ 15,0000</h2>
+                                                    <h6 class="card-text">Increased by 60%</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 stretch-card grid-margin">
+                                            <div class="card bg-gradient-info card-img-holder text-white">
+                                                <div class="card-body">
+                                                    <img src="assets/images/dashboard/circle.svg" class="card-img-absolute"
+                                                         alt="circle-image"/>
+                                                    <h4 class="font-weight-normal mb-3">포토샵 <i
+                                                            class="mdi mdi-bookmark-outline mdi-24px float-right"></i>
+                                                    </h4>
+                                                    <h2 class="mb-5">45,6334</h2>
+                                                    <h6 class="card-text">Decreased by 10%</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 stretch-card grid-margin">
+                                            <div class="card bg-gradient-success card-img-holder text-white">
+                                                <div class="card-body">
+                                                    <img src="assets/images/dashboard/circle.svg" class="card-img-absolute"
+                                                         alt="circle-image"/>
+                                                    <h4 class="font-weight-normal mb-3">일러스트 <i
+                                                            class="mdi mdi-diamond mdi-24px float-right"></i>
+                                                    </h4>
+                                                    <h2 class="mb-5">95,5741</h2>
+                                                    <h6 class="card-text">Increased by 5%</h6>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -300,10 +338,11 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-md-7 grid-margin stretch-card">
+                        <div class="col-12 grid-margin stretch-card">
                             <div class="card">
                                 <div class="card-body">
-                                    <h4 class="card-title">Project Status</h4>
+                                    <h4 class="card-title">경력
+                                    </h4>
                                     <div class="table-responsive">
                                         <table class="table">
                                             <thead>
@@ -393,68 +432,62 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-5 grid-margin stretch-card">
+                        <div class="col-12 grid-margin stretch-card">
                             <div class="card">
                                 <div class="card-body">
-                                    <h4 class="card-title text-white">Todo</h4>
-                                    <div class="add-items d-flex">
-                                        <input type="text" class="form-control todo-list-input"
-                                               placeholder="What do you need to do today?">
-                                        <button class="add btn btn-gradient-primary font-weight-bold todo-list-add-btn"
-                                                id="add-task">Add
-                                        </button>
-                                    </div>
-                                    <div class="list-wrapper">
-                                        <ul class="d-flex flex-column-reverse todo-list todo-list-custom">
-                                            <li>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="checkbox" type="checkbox"> Meeting with Alisa
-                                                    </label>
-                                                </div>
-                                                <i class="remove mdi mdi-close-circle-outline"></i>
-                                            </li>
-                                            <li class="completed">
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="checkbox" type="checkbox" checked> Call John
-                                                    </label>
-                                                </div>
-                                                <i class="remove mdi mdi-close-circle-outline"></i>
-                                            </li>
-                                            <li>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="checkbox" type="checkbox"> Create invoice </label>
-                                                </div>
-                                                <i class="remove mdi mdi-close-circle-outline"></i>
-                                            </li>
-                                            <li>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="checkbox" type="checkbox"> Print Statements
-                                                    </label>
-                                                </div>
-                                                <i class="remove mdi mdi-close-circle-outline"></i>
-                                            </li>
-                                            <li class="completed">
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="checkbox" type="checkbox" checked> Prepare for
-                                                        presentation </label>
-                                                </div>
-                                                <i class="remove mdi mdi-close-circle-outline"></i>
-                                            </li>
-                                            <li>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="checkbox" type="checkbox"> Pick up kids from
-                                                        school
-                                                    </label>
-                                                </div>
-                                                <i class="remove mdi mdi-close-circle-outline"></i>
-                                            </li>
-                                        </ul>
+                                    <h4 class="card-title">증자격증</h4>
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <thead>
+                                            <tr>
+                                                <th> 자격증</th>
+                                                <th> 발행쳐</th>
+                                                <th> 취득일</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>
+                                                    <img src="assets/images/faces/face1.jpg" class="me-2" alt="image">
+                                                    웹디자인 기능사
+                                                </td>
+                                                <td>
+                                                    <label class="badge badge-success">한국산업인력공단</label>
+                                                </td>
+                                                <td> 2013년 12월</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <img src="assets/images/faces/face2.jpg" class="me-2" alt="image">
+                                                    컴퓨터그래픽스운용기능사
+                                                </td>
+                                                <td>
+                                                    <label class="badge badge-success">한국산업인력공단</label>
+                                                </td>
+                                                <td> 2013년 06월</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <img src="assets/images/faces/face3.jpg" class="me-2" alt="image">
+                                                    전자출판기능사
+                                                </td>
+                                                <td>
+                                                    <label class="badge badge-success">한국산업인력공단</label>
+                                                </td>
+                                                <td> 2013년 10월</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <img src="assets/images/faces/face4.jpg" class="me-2" alt="image">
+                                                    중등학교2급정교사(디자인/공예)
+                                                </td>
+                                                <td>
+                                                    <label class="badge badge-info">교직이수 - 한남대</label>
+                                                </td>
+                                                <td> Dec 3, 2017</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
@@ -490,6 +523,7 @@
 <!-- Custom js for this page -->
 <script src="assets/js/dashboard.js"></script>
 <script src="assets/js/todolist.js"></script>
+<script src="assets/js/custom.js"></script>
 <!-- End custom js for this page -->
 </body>
 </html>
