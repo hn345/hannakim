@@ -246,6 +246,7 @@ li.nav-item.nav-profile .nav-link {
 .aboutCont .prflMenu .rounded-circle {
     border-radius: 50% !important;
     border: 2px solid #fff;
+    background: #f7f7f7;
 }
 
 .aboutCont .prflMenu h5{
@@ -1047,7 +1048,5 @@ li.nav-item.nav-profile .nav-link {
     margin: 0 auto;
 }
 /** 개별 끝 **/
-
-
 /**** portfolio 끝 ****/
 
