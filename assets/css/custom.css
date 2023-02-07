@@ -111,6 +111,20 @@ body {
     padding: .8rem 1rem;
 }
 /* 버튼 끝 */
+
+
+.content-wrapper {
+    background: linear-gradient(132deg, #e2e8ea, #283a5d);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 30s ease infinite;
+}
+
+
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
 /**** 공통 끝 ****/
 
 
@@ -248,14 +262,13 @@ li.nav-item.nav-profile .nav-link {
     background: linear-gradient(to right, #da8cff, #9a55ff);
 }
 /* 프로필 bg 끝 */
-
 .aboutCont .card-body {
     padding: 0;
 }
 
 .aboutCont .prflMenu {
     margin-top: -4rem;
-    padding: 0 1.5rem;
+    padding: 0 1.5rem .5rem;
 }
 
 .aboutCont .prflMenu .rounded-circle {
