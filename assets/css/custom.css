@@ -339,6 +339,60 @@ li.nav-item.nav-profile .nav-link {
 }
 /* tab 끝 */
 
+.aboutTxtCont {
+    border: 1px solid #ebedf3;
+    padding: 18px 18px 2px;
+    background: #f5f4fd;
+}
+
+.aboutContent .list-wrapper ul li:first-child {
+    border-bottom: 1px solid #ebedf2;
+}
+
+.aboutContent .list-wrapper ul li {
+    font-size: .9375rem;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid #ebedf2;
+    display: flex;
+    align-items: center;
+}
+
+.aboutContent .list-wrapper ul li:last-child {
+    border-bottom: none;
+}
+
+.aboutContent .list-wrapper ul li i {
+    color: #b66cff;
+    font-size: 21px;
+    margin-right: 18px;
+}
+
+.certificate-card .badge {
+    font-size: 13px;
+    padding: 4px 6px;
+}
+
+.certificate-card .badge.badge-success {
+    background: #e6f9f5;
+    color: #008b76;
+    border: 1px solid #98dfd2;
+}
+
+.certificate-card .badge.badge-info {
+    background: #e2edf9;
+    color: #03248b;
+    border: 1px solid #7fafef
+}
+
+.certificate-card table {
+    border-top: 1px solid #ebedf3;
+}
+
+.certificate-card table th {
+    background: #f2f3f5;
+    padding: 11px 0.9375rem;
+    font-weight: 600;
+}
 /**** about 끝 ****/
 
 /**** portfolio 시작 ****/
