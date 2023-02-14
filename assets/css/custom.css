@@ -393,6 +393,49 @@ li.nav-item.nav-profile .nav-link {
     padding: 11px 0.9375rem;
     font-weight: 600;
 }
+
+.bg-gray {
+    background: #56677f;
+}
+
+.service-card .card-body {
+    padding: 1rem;
+    text-align: center;
+    min-height: 256px;
+}
+
+.service-img {
+    max-height: 100px;
+    margin-bottom: 14px;
+}
+
+.serviceTitLine {
+    display: block;
+    width: 64px;
+    height: 2px;
+    background: #198ae3;
+    margin: 5px auto 18px;
+}
+
+.service-card .textCont {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.bg-gradient-warning {
+    background: linear-gradient(to right, #f6e384, #ffbf00) !important;
+}
+
+.bg-gradient-secondary {
+    background: linear-gradient(to right, #b5c7de, #66798b) !important;
+}
+
+.textCont .card-text.badge {
+    font-size: .76rem;
+}
 /**** about 끝 ****/
 
 /**** portfolio 시작 ****/
