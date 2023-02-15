@@ -7,11 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0790725b-6a18-456f-af1c-664155835860" name="변경" comment="포트폴리오, 카드 추가">
+    <list default="true" id="0790725b-6a18-456f-af1c-664155835860" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PSD/Purple_dashboard_free.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PSD/hannaProfile.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/icon_app.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/icon_app.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/portfolio/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/portfolio/portfolio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +118,7 @@
       <workItem from="1676297037152" duration="2875000" />
       <workItem from="1676333410576" duration="511000" />
       <workItem from="1676443747783" duration="3477000" />
-      <workItem from="1676454555404" duration="9985000" />
+      <workItem from="1676454555404" duration="10299000" />
     </task>
     <task id="LOCAL-00001" summary="파일 설치">
       <created>1673776973616</created>
@@ -270,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676461884146</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="포트폴리오, 카드 추가">
+      <created>1676465591952</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1676465591952</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
