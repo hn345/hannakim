@@ -538,7 +538,7 @@ li.nav-item.nav-profile .nav-link {
     left: -4px;
     background: rgb(182 107 255);
     border-radius: 50%;
-    box-shadow: 0 0 0 3px rgb(82 107 255 / 20%);
+    box-shadow: 0 0 0 3px rgb(182 107 255 / 20%);
 }
 
 .timeline ul li h3 {
