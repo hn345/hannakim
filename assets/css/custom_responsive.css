@@ -50,6 +50,10 @@
     .filterElementList .modal_comel-cont .comel-card-box .comel-card {
         width: 33.3%;
     }
+
+    .service-card .textCont h3 {
+        font-size: 1.4rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -61,6 +65,57 @@
 
     .filterElementList .modal_comel-cont .comel-card-box .comel-card {
         width: 50%;
+    }
+
+    .service-card .textCont h3 {
+        font-size: 1.3rem;
+    }
+
+    .service-img {
+        max-height: 86px;
+    }
+
+    .timeline {
+        width: 100%;
+        padding-bottom: 0;
+        padding-top: 40px;
+    }
+
+    .timeline h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .timeline:before {
+        left: 20px;
+        height: 100%;
+        top: 0;
+    }
+
+    .timeline ul li:nth-child(odd),
+    .timeline ul li:nth-child(even) {
+        width: 100%;
+        text-align: left;
+        padding-left: 50px;
+        padding-bottom: 40px;
+    }
+
+    .timeline ul li:nth-child(odd):before,
+    .timeline ul li:nth-child(even):before {
+        top: -18px;
+        left: 16px;
+    }
+
+    .timeline ul li:nth-child(odd) .time,
+    .timeline ul li:nth-child(even) .time {
+        top: -24px;
+        left: 50px;
+        right: inherit;
+        padding: 3px 16px;
+    }
+
+    .timeline ul li h3 {
+        font-size: 1.5rem;
     }
 }
 

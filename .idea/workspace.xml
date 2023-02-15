@@ -7,11 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0790725b-6a18-456f-af1c-664155835860" name="변경" comment="프로필 bg 수정">
-      <change afterPath="$PROJECT_DIR$/assets/images/icon_premiere.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icon_ps-ai.svg" afterDir="false" />
+    <list default="true" id="0790725b-6a18-456f-af1c-664155835860" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/icon_app.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icon_html_css.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/custom_responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom_responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,6 +120,9 @@
       <workItem from="1675851683640" duration="6337000" />
       <workItem from="1676292187603" duration="3842000" />
       <workItem from="1676297037152" duration="2875000" />
+      <workItem from="1676333410576" duration="511000" />
+      <workItem from="1676443747783" duration="3477000" />
+      <workItem from="1676454555404" duration="5901000" />
     </task>
     <task id="LOCAL-00001" summary="파일 설치">
       <created>1673776973616</created>
@@ -225,7 +229,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675861950103</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="이력서, 기술 수정">
+      <created>1676333504734</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1676333504734</updated>
+    </task>
+    <task id="LOCAL-00017" summary="프로필 bg 수정">
+      <created>1676333524135</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1676333524135</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,9 +274,10 @@
     <MESSAGE value="footer 추가" />
     <MESSAGE value="필요없는 파일 삭제" />
     <MESSAGE value="프로필 bg 색상변경" />
-    <MESSAGE value="프로필 bg 수정" />
     <MESSAGE value="배경 수정" />
     <MESSAGE value="자격증 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="자격증 추가" />
+    <MESSAGE value="이력서, 기술 수정" />
+    <MESSAGE value="프로필 bg 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="프로필 bg 수정" />
   </component>
 </project>

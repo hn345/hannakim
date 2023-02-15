@@ -54,7 +54,7 @@ body {
     height: 64px;
 }
 
-.sidebar .nav .nav-item .nav-link .menu-title{
+.sidebar .nav .nav-item .nav-link .menu-title {
     color: #c3c7cb;
 }
 
@@ -110,6 +110,7 @@ body {
 .btn-lg {
     padding: .8rem 1rem;
 }
+
 /* 버튼 끝 */
 
 
@@ -121,10 +122,17 @@ body {
 
 
 @keyframes BackgroundGradient {
-    0% {background-position: 0% 50%;}
-    50% {background-position: 100% 50%;}
-    100% {background-position: 0% 50%;}
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
+
 /**** 공통 끝 ****/
 
 
@@ -152,6 +160,7 @@ body {
 .sidebar::-webkit-scrollbar-thumb:window-inactive {
     background: #1c3f64;
 }
+
 /* scrollbar end */
 .navbar-menu-wrapper {
     background: repeating-linear-gradient(135deg, #fbfbfb 0, #fbfbfb 10%, transparent 0, transparent 50%);
@@ -198,7 +207,7 @@ body {
 
 li.nav-item.nav-profile .nav-link {
     flex-direction: column;
-    padding-top: 6px!important;
+    padding-top: 6px !important;
 }
 
 .sidebar .nav .nav-item.nav-profile .nav-link .nav-profile-image {
@@ -215,7 +224,7 @@ li.nav-item.nav-profile .nav-link {
 
 .sidebar .nav .nav-item.nav-profile .nav-link .nav-profile-text {
     font-size: 1.35rem;
-    margin-left: 0!important;
+    margin-left: 0 !important;
     margin-top: 0.95rem;
     color: #fff;
     text-align: center;
@@ -223,7 +232,7 @@ li.nav-item.nav-profile .nav-link {
 
 .sidebar .nav .nav-item.nav-profile .nav-link .nav-profile-badge {
     margin-top: -13px;
-    color: #ffc107!important;
+    color: #ffc107 !important;
 }
 
 .contTit {
@@ -244,6 +253,7 @@ li.nav-item.nav-profile .nav-link {
     margin-left: 7px;
     font-weight: 600;
 }
+
 /**** nav 끝 ****/
 
 
@@ -261,6 +271,7 @@ li.nav-item.nav-profile .nav-link {
     width: 100%;
     background: linear-gradient(to right, #da8cff, #9a55ff);
 }
+
 /* 프로필 bg 끝 */
 .aboutCont .card-body {
     padding: 0;
@@ -277,7 +288,7 @@ li.nav-item.nav-profile .nav-link {
     background: #f7f7f7;
 }
 
-.aboutCont .prflMenu h5{
+.aboutCont .prflMenu h5 {
     height: 4rem;
     font-size: 24px;
     color: #fff;
@@ -334,9 +345,10 @@ li.nav-item.nav-profile .nav-link {
 
 .btnTop i {
     line-height: 1;
-    font-size: 12px!important;
+    font-size: 12px !important;
     padding: 2px 3px 0 0;
 }
+
 /* tab 끝 */
 
 .aboutTxtCont {
@@ -425,8 +437,12 @@ li.nav-item.nav-profile .nav-link {
     width: 100%;
 }
 
+.service-card .textCont .bg-warning {
+    background: #f7b00a !important;
+}
+
 .bg-gradient-warning {
-    background: linear-gradient(to right, #f6e384, #ffbf00) !important;
+    background: linear-gradient(to right, #f1d962, #ffbf00) !important;
 }
 
 .bg-gradient-secondary {
@@ -436,6 +452,181 @@ li.nav-item.nav-profile .nav-link {
 .textCont .card-text.badge {
     font-size: .76rem;
 }
+
+.textCont .bg-info {
+    background: #1d75fa !important;
+}
+
+.textCont .bg-primary {
+    background: #a31dfa !important;
+}
+
+/** 경력 시작 **/
+.career_timeline_cont {
+    /*border-top: 1px solid #ccc;*/
+}
+
+.timeline {
+    position: relative;
+    margin: 26px auto 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background: #c5c5c5;
+}
+
+.timeline ul {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline ul li {
+    list-style: none;
+    position: relative;
+    width: 50%;
+    padding: 16px 40px 0;
+    box-sizing: border-box;
+}
+
+.timeline ul li:nth-child(odd) {
+    float: left;
+    text-align: right;
+    clear: both;
+}
+
+.timeline ul li:nth-child(even) {
+    float: right;
+    text-align: left;
+    clear: both;
+}
+
+.career_timeline_cont {
+    background: #f5f4fd;
+    padding-bottom: 20px;
+    border: 1px solid #ebedf3;
+}
+
+.timeline ul li:nth-child(odd):before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 24px;
+    right: -6px;
+    background: rgb(14 109 253);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgb(14 109 253 / 20%);
+}
+
+.timeline ul li:nth-child(even):before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 24px;
+    left: -4px;
+    background: rgb(182 107 255);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgb(82 107 255 / 20%);
+}
+
+.timeline ul li h3 {
+    padding: 0;
+    margin: 0;
+    color: #0061ff;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.timeline ul li:nth-child(even) h3{
+    color: #ab59fb;
+}
+
+.timeline ul li h3 .team-text {
+    background: #ece8e8;
+    display: inline-block;
+    font-size: .875rem;
+    padding: 3px 12px;
+    color: #333;
+    font-weight: 500;
+}
+
+.timeline ul li p {
+    margin: 10px 0 0;
+    padding: 0;
+    font-weight: 700;
+}
+
+.timeline ul li p span {
+    font-weight: 400;
+    font-size: 14px;
+    color: #2561d1;
+}
+
+.timeline ul li .project-text {
+    background: #fcfbfe;
+    padding: 8px;
+    margin-top: 16px;
+    border: 1px solid #a0bdeb;
+    border-radius: 4px;
+}
+
+.timeline ul li:nth-child(even) .project-text {
+    border: 1px solid #dba0eb;
+}
+
+.timeline ul li .project-text span.line {
+    width: 1px;
+    height: 10px;
+    background: #ccc;
+    display: inline-block;
+    margin: 0 6px;
+}
+
+.timeline ul li .time h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.timeline ul li:nth-child(odd) .time {
+    min-width: 150px;
+    position: absolute;
+    top: 12px;
+    right: -180px;
+    margin: 0;
+    padding: 6px 16px;
+    background: rgb(15 108 253);
+    color: #fff;
+    border-radius: 18px;
+    box-shadow: 0 0 0 3px rgb(17 107 253 / 27%);
+}
+
+.timeline ul li:nth-child(even) .time {
+    min-width: 150px;
+    position: absolute;
+    top: 12px;
+    left: -180px;
+    margin: 0;
+    padding: 6px 16px;
+    background: rgb(182 107 255);
+    color: #fff;
+    border-radius: 18px;
+    box-shadow: 0 0 0 3px rgb(182 107 255 / 27%);
+}
+
+.career_timeline_cont .time-cont {
+    margin-bottom: 40px;
+}
+/** 경력 끝 **/
 /**** about 끝 ****/
 
 /**** portfolio 시작 ****/
@@ -455,7 +646,7 @@ li.nav-item.nav-profile .nav-link {
     background: #808795;
 }
 
-.filterElementCont .btn-group button{
+.filterElementCont .btn-group button {
     color: #fff;
 }
 
@@ -496,6 +687,7 @@ li.nav-item.nav-profile .nav-link {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
 }
+
 /** 필터 버튼 끝 **/
 
 
@@ -673,7 +865,7 @@ li.nav-item.nav-profile .nav-link {
 /** 필터 모달 시작 **/
 
 .filterElementList .modal {
-    padding-right: 0!important;
+    padding-right: 0 !important;
 }
 
 .filterElementList .modal-header {
@@ -683,7 +875,7 @@ li.nav-item.nav-profile .nav-link {
 }
 
 .filterElementList .modal-header .modal-title img {
-   height: 46px;
+    height: 46px;
 }
 
 .filterElementList .modal-header .btn-close {
@@ -733,6 +925,7 @@ li.nav-item.nav-profile .nav-link {
     padding-bottom: 4px;
     display: block;
 }
+
 /** 필터 모달 끝 **/
 
 /** 개별 시작 **/
@@ -901,12 +1094,12 @@ li.nav-item.nav-profile .nav-link {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-wrap: wrap!important;
+    flex-wrap: wrap !important;
 }
 
 .comel-card-box .comel-card .logo {
     height: 24px;
-    width: auto!important;
+    width: auto !important;
     margin-bottom: 12px;
     margin-top: 16px;
 }
@@ -921,11 +1114,11 @@ li.nav-item.nav-profile .nav-link {
 }
 
 .comel-card-box .comel-card .imgComelPrd {
-    width: auto!important;
+    width: auto !important;
 }
 
 .comel-card-box .comel-card .logo.coral_cloud {
-    height: 30px!important;
+    height: 30px !important;
     margin-bottom: 6px
 }
 
@@ -958,7 +1151,7 @@ li.nav-item.nav-profile .nav-link {
     color: #fff;
 }
 
-.filterElementList .link_txt  a {
+.filterElementList .link_txt a {
     text-decoration: none;
 }
 
@@ -1056,6 +1249,7 @@ li.nav-item.nav-profile .nav-link {
 .vfImgCont::-webkit-scrollbar-thumb:window-inactive {
     background: #c1c1c1;
 }
+
 /* scrollbar end */
 
 /* 비디오팩토리 */
@@ -1172,6 +1366,7 @@ li.nav-item.nav-profile .nav-link {
     max-width: 800px;
     margin: 0 auto;
 }
+
 /** 개별 끝 **/
 /**** portfolio 끝 ****/
 
