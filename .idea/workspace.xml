@@ -8,12 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0790725b-6a18-456f-af1c-664155835860" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/icon_app.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icon_html_css.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/custom_responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom_responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +118,7 @@
       <workItem from="1676297037152" duration="2875000" />
       <workItem from="1676333410576" duration="511000" />
       <workItem from="1676443747783" duration="3477000" />
-      <workItem from="1676454555404" duration="5901000" />
+      <workItem from="1676454555404" duration="6389000" />
     </task>
     <task id="LOCAL-00001" summary="파일 설치">
       <created>1673776973616</created>
@@ -243,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676333524135</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="이력서, 경력 추가">
+      <created>1676460700738</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1676460700738</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +281,7 @@
     <MESSAGE value="자격증 추가" />
     <MESSAGE value="이력서, 기술 수정" />
     <MESSAGE value="프로필 bg 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="프로필 bg 수정" />
+    <MESSAGE value="이력서, 경력 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="이력서, 경력 추가" />
   </component>
 </project>

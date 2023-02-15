@@ -354,7 +354,9 @@ li.nav-item.nav-profile .nav-link {
 .aboutTxtCont {
     border: 1px solid #ebedf3;
     padding: 18px 18px 2px;
-    background: #f5f4fd;
+    background-image: radial-gradient(#e7edfe 20%, transparent 20%), radial-gradient(#f5f4fd 20%, #f5f4fd);
+    background-position: 0 0, 50px 50px;
+    background-size: 6px 6px;
 }
 
 .aboutContent .list-wrapper ul li:first-child {
@@ -508,9 +510,11 @@ li.nav-item.nav-profile .nav-link {
 }
 
 .career_timeline_cont {
-    background: #f5f4fd;
     padding-bottom: 20px;
     border: 1px solid #ebedf3;
+    background-image: radial-gradient(#e7edfe 20%, transparent 20%), radial-gradient(#f5f4fd 20%, #f5f4fd);
+    background-position: 0 0, 50px 50px;
+    background-size: 6px 6px;
 }
 
 .timeline ul li:nth-child(odd):before {
@@ -571,7 +575,7 @@ li.nav-item.nav-profile .nav-link {
 }
 
 .timeline ul li .project-text {
-    background: #fcfbfe;
+    background: rgb(255 255 255 / 54%);
     padding: 8px;
     margin-top: 16px;
     border: 1px solid #a0bdeb;
