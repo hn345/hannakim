@@ -9,6 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0790725b-6a18-456f-af1c-664155835860" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/portfolio/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/portfolio/portfolio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +124,8 @@
       <workItem from="1676506752099" duration="1925000" />
       <workItem from="1676536274710" duration="633000" />
       <workItem from="1676541710213" duration="148000" />
-      <workItem from="1676544408333" duration="836000" />
+      <workItem from="1676544408333" duration="1922000" />
+      <workItem from="1676547069296" duration="415000" />
     </task>
     <task id="LOCAL-00001" summary="파일 설치">
       <created>1673776973616</created>
@@ -307,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676544877957</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="포트폴리오, 수정 테스트2">
+      <created>1676545355122</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1676545355122</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,6 +358,7 @@
     <MESSAGE value="포트폴리오, 카드 추가" />
     <MESSAGE value="포트폴리오, 수정" />
     <MESSAGE value="포트폴리오, 수정 테스트" />
-    <option name="LAST_COMMIT_MESSAGE" value="포트폴리오, 수정 테스트" />
+    <MESSAGE value="포트폴리오, 수정 테스트2" />
+    <option name="LAST_COMMIT_MESSAGE" value="포트폴리오, 수정 테스트2" />
   </component>
 </project>
