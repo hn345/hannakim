@@ -354,7 +354,7 @@ li.nav-item.nav-profile .nav-link {
 .aboutTxtCont {
     border: 1px solid #ebedf3;
     padding: 18px 18px 2px;
-    background-image: radial-gradient(#e7edfe 20%, transparent 20%), radial-gradient(#f5f4fd 20%, #f5f4fd);
+    background-image: radial-gradient(#dfe2ec 20%, transparent 20%), radial-gradient(#f5f4fd 20%, #f5f4fd);
     background-position: 0 0, 50px 50px;
     background-size: 6px 6px;
 }
@@ -512,7 +512,7 @@ li.nav-item.nav-profile .nav-link {
 .career_timeline_cont {
     padding-bottom: 20px;
     border: 1px solid #ebedf3;
-    background-image: radial-gradient(#e7edfe 20%, transparent 20%), radial-gradient(#f5f4fd 20%, #f5f4fd);
+    background-image: radial-gradient(#dfe2ec 20%, transparent 20%), radial-gradient(#f5f4fd 20%, #f5f4fd);
     background-position: 0 0, 50px 50px;
     background-size: 6px 6px;
 }
