@@ -8,7 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0790725b-6a18-456f-af1c-664155835860" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/element/logo-eyemeta.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/logo-uibook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/logo-uisp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/logo_uicom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/element/logo_uivc.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/portfolio/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/portfolio/portfolio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +65,8 @@
       <recent name="$PROJECT_DIR$/pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$/assets/images/element" />
+      <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$/assets/download" />
       <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/assets/images/video" />
@@ -118,7 +124,8 @@
       <workItem from="1676297037152" duration="2875000" />
       <workItem from="1676333410576" duration="511000" />
       <workItem from="1676443747783" duration="3477000" />
-      <workItem from="1676454555404" duration="10299000" />
+      <workItem from="1676454555404" duration="14080000" />
+      <workItem from="1676470303554" duration="273000" />
     </task>
     <task id="LOCAL-00001" summary="파일 설치">
       <created>1673776973616</created>
@@ -274,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676465591952</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="포트폴리오, 카드 추가">
+      <created>1676465843623</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1676465843623</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
