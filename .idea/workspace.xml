@@ -8,11 +8,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0790725b-6a18-456f-af1c-664155835860" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/element/logo-eyemeta.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/element/logo-uibook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/element/logo-uisp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/element/logo_uicom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/element/logo_uivc.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/portfolio/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/portfolio/portfolio.html" afterDir="false" />
@@ -126,6 +121,8 @@
       <workItem from="1676443747783" duration="3477000" />
       <workItem from="1676454555404" duration="14080000" />
       <workItem from="1676470303554" duration="273000" />
+      <workItem from="1676506752099" duration="1925000" />
+      <workItem from="1676536274710" duration="633000" />
     </task>
     <task id="LOCAL-00001" summary="파일 설치">
       <created>1673776973616</created>
@@ -288,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676465843623</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="포트폴리오, 수정">
+      <created>1676506828301</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1676506828301</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,6 +332,7 @@
     <MESSAGE value="이력서 주석 처리" />
     <MESSAGE value="css 수정" />
     <MESSAGE value="포트폴리오, 카드 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="포트폴리오, 카드 추가" />
+    <MESSAGE value="포트폴리오, 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="포트폴리오, 수정" />
   </component>
 </project>
