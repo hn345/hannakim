@@ -994,7 +994,7 @@ li.nav-item.nav-profile .nav-link {
 }
 
 .filterElementList .card_uicom figure.snip0058 > img {
-    margin-bottom: -12px;
+    margin-bottom: -95px;
 }
 
 .filterElementList .modal_uicom-cont .modal-header .modal-title img  {
@@ -1018,8 +1018,8 @@ li.nav-item.nav-profile .nav-link {
     height: 55px;
 }
 
-.modal_eyemeta-cont .img_group.eyemeta img {
-    border: 1px solid #ccc;
+.modal_eyemeta-cont .img_group.bdr1ef img {
+    border: 1px solid #efefef;
 }
 
 /* 팔도장터 */

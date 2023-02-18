@@ -125,7 +125,8 @@
       <workItem from="1676536274710" duration="633000" />
       <workItem from="1676541710213" duration="148000" />
       <workItem from="1676544408333" duration="1922000" />
-      <workItem from="1676547069296" duration="415000" />
+      <workItem from="1676547069296" duration="1645000" />
+      <workItem from="1676693470027" duration="664000" />
     </task>
     <task id="LOCAL-00001" summary="파일 설치">
       <created>1673776973616</created>
@@ -316,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676545355122</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="포트폴리오, 아이메타 이미지 수정">
+      <created>1676549661262</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1676549661262</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,7 +342,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="파일 설치" />
     <MESSAGE value="스크롤바 수정" />
     <MESSAGE value="메뉴 색상 테스트" />
     <MESSAGE value="메뉴 구성 변경" />
@@ -359,6 +366,7 @@
     <MESSAGE value="포트폴리오, 수정" />
     <MESSAGE value="포트폴리오, 수정 테스트" />
     <MESSAGE value="포트폴리오, 수정 테스트2" />
-    <option name="LAST_COMMIT_MESSAGE" value="포트폴리오, 수정 테스트2" />
+    <MESSAGE value="포트폴리오, 아이메타 이미지 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="포트폴리오, 아이메타 이미지 수정" />
   </component>
 </project>
