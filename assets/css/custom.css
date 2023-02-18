@@ -943,7 +943,7 @@ li.nav-item.nav-profile .nav-link {
 }
 
 .filterElementList .card_uisp figure.snip0058 > img {
-    margin-bottom: -12px;
+    margin-bottom: -120px;
 }
 
 .filterElementList .modal_uisp-cont .modal-header .modal-title img  {
@@ -960,7 +960,7 @@ li.nav-item.nav-profile .nav-link {
 }
 
 .filterElementList .card_uibook figure.snip0058 > img {
-    margin-bottom: -12px;
+    margin-bottom: -175px;
 }
 
 .filterElementList .modal_uibook-cont .modal-header .modal-title img  {
@@ -976,12 +976,17 @@ li.nav-item.nav-profile .nav-link {
     background: #9141c5;
 }
 
-.filterElementList .card_uicom figure.snip0058 > img {
-    margin-bottom: -12px;
+.filterElementList .card_uivc figure.snip0058 > img {
+    margin-bottom: -133px;
 }
 
 .filterElementList .modal_uivc-cont .modal-header .modal-title img  {
     height: 34px;
+}
+
+.filterElementList .modal_uivc-cont .uivcImgCon img {
+    background: #f7f7f7;
+    border-radius: 4px;
 }
 
 /* 유아이컴 */
@@ -994,7 +999,7 @@ li.nav-item.nav-profile .nav-link {
 }
 
 .filterElementList .card_uicom figure.snip0058 > img {
-    margin-bottom: -95px;
+    margin-bottom: -134px;
 }
 
 .filterElementList .modal_uicom-cont .modal-header .modal-title img  {
