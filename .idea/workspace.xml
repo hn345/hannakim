@@ -7,9 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0790725b-6a18-456f-af1c-664155835860" name="변경" comment="">
+    <list default="true" id="0790725b-6a18-456f-af1c-664155835860" name="변경" comment="유아이컴, uibook 카드 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/element/uivc_top_pc2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/element/uisp_top_pc2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/portfolio/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/portfolio/portfolio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +126,7 @@
       <workItem from="1676541710213" duration="148000" />
       <workItem from="1676544408333" duration="1922000" />
       <workItem from="1676547069296" duration="1645000" />
-      <workItem from="1676693470027" duration="13622000" />
+      <workItem from="1676693470027" duration="22675000" />
     </task>
     <task id="LOCAL-00001" summary="파일 설치">
       <created>1673776973616</created>
@@ -352,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676717550261</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="유아이컴, uibook 카드 수정">
+      <created>1676720470716</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1676720470716</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,7 +377,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="메뉴 이미지 추가" />
     <MESSAGE value="포트폴리오 메뉴 추가" />
     <MESSAGE value="포트폴리오 목록 추가" />
     <MESSAGE value="포트폴리오 card 추가" />
@@ -395,6 +401,7 @@
     <MESSAGE value="포트폴리오, 아이메타 이미지 순서 수정" />
     <MESSAGE value="유아이컴 카드 수정" />
     <MESSAGE value="유아이컴, uivc 카드 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="유아이컴, uivc 카드 수정" />
+    <MESSAGE value="유아이컴, uibook 카드 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="유아이컴, uibook 카드 수정" />
   </component>
 </project>
