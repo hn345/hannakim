@@ -943,7 +943,7 @@ li.nav-item.nav-profile .nav-link {
 }
 
 .filterElementList .card_uisp figure.snip0058 > img {
-    margin-bottom: -120px;
+    margin-bottom: -45px;
 }
 
 .filterElementList .modal_uisp-cont .modal-header .modal-title img  {
@@ -1061,6 +1061,24 @@ li.nav-item.nav-profile .nav-link {
     border: 1px solid #ededed;
 }
 
+/* 드럼아이디어 */
+.filterElementList .card_drumidea figure.snip0058 figcaption h2 {
+    background: #1b2349;
+}
+
+.filterElementList .card_drumidea figure.snip0058:after {
+    background: #1b2349;
+}
+
+.filterElementList .card_drumidea figure.snip0058 > img {
+    margin-bottom: -68px;
+}
+
+.filterElementList .modal_drumidea-cont .modal-header .modal-title img  {
+    height: 40px;
+}
+
+
 /* 팔도장터 */
 .filterElementList .card_8do figure.snip0058 figcaption h2 {
     background: #266c27;
@@ -1071,7 +1089,7 @@ li.nav-item.nav-profile .nav-link {
 }
 
 .filterElementList .card_8do figure.snip0058 > img {
-    margin-bottom: -12px;
+    margin-bottom: -22px;
 }
 
 /* 오샐런스 */
