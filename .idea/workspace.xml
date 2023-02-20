@@ -123,7 +123,7 @@
       <workItem from="1676544408333" duration="1922000" />
       <workItem from="1676547069296" duration="1645000" />
       <workItem from="1676693470027" duration="23192000" />
-      <workItem from="1676809184872" duration="5952000" />
+      <workItem from="1676809184872" duration="6245000" />
     </task>
     <task id="LOCAL-00001" summary="파일 설치">
       <created>1673776973616</created>
@@ -370,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676817439024</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="드럼아이디어 카드 추가">
+      <created>1676818224550</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1676818224550</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +395,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="포트폴리오 card 추가" />
     <MESSAGE value="arte 이미지 용량 수정" />
     <MESSAGE value="포트폴리오 모달 추가" />
     <MESSAGE value="footer 추가" />
@@ -413,6 +419,7 @@
     <MESSAGE value="유아이컴, uibook 카드 수정" />
     <MESSAGE value="유아이컴, uisp img 수정" />
     <MESSAGE value="드럼아이디어 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="드럼아이디어 수정" />
+    <MESSAGE value="드럼아이디어 카드 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="드럼아이디어 카드 추가" />
   </component>
 </project>
